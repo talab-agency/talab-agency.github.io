@@ -1,0 +1,1636 @@
+<!doctype html><html lang="ru"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><title>Talab — маркетинговое агентство в Ташкенте</title>
+<meta name="description" content="Talab создаёт спрос на ваш бизнес: таргет в Meta Ads, Яндекс Директ, Telegram Ads, OLX и SEO. Бесплатный разбор маркетинга. Ташкент.">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#2563FF">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Talab">
+<meta property="og:title" content="Talab — маркетинговое агентство в Ташкенте">
+<meta property="og:description" content="Создаём спрос на ваш бизнес. Бесплатный разбор маркетинга.">
+<meta property="og:url" content="https://talab-agency.github.io/">
+<meta property="og:image" content="https://talab-agency.github.io/og-image.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://talab-agency.github.io/">
+</head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica:wght@500;700;800&family=JetBrains+Mono:wght@400;500;600&family=Onest:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: left-weighted grid, max 1180px. One deliberate bright look for every viewer: ice-white page, a pastel aurora hero with a vivid electric-blue chart card, a vivid ticker, white bands with electric blue, turquoise and gold accents, and vivid blue cards where the numbers live. Motion: words rise in, aurora drifts, badges float, the chart card tilts toward the cursor, cards glow under it, blocks reveal on scroll. */
+@property --ang{syntax:"<angle>";inherits:false;initial-value:0deg}
+:root{
+  color-scheme:light;
+  --bg:#F7F9FF;
+  --bg-2:#F0F4FF;
+  --surface:#FFFFFF;
+  --field:#FFFFFF;
+  --ink:#0A1433;
+  --ink-2:#4A5775;
+  --line:#E1E7F5;
+  --line-strong:#C5CFE6;
+  --grid:rgba(37,99,255,.07);
+  --blue:#2563FF;
+  --blue-deep:#1238D9;
+  --blue-soft:#E8EEFF;
+  --cyan:#06B6D4;
+  --gold:#FFB020;
+  --good:#15803D;
+  --good-soft:#DCFCE7;
+  --bad:#DC2626;
+  --bad-soft:#FEE2E2;
+  --t-blue:#2563FF;
+  --t-coral:#C2410C;
+  --t-cyan:#0E7490;
+  --t-green:#15803D;
+  --t-violet:#6D28D9;
+  --g-vivid:linear-gradient(150deg,#1030CC 0%,#1A45E6 55%,#1F4FF0 100%);
+  --g-band:linear-gradient(100deg,#1030CC 0%,#1F4FF0 25%,#2563FF 50%,#1F4FF0 75%,#1030CC 100%);
+  --g-action:linear-gradient(135deg,#FFD166 0%,#FFB020 50%,#FF8A00 100%);
+  --on-action:#1A1300;
+  --g-text:linear-gradient(90deg,#1D4ED8 0%,#2563FF 40%,#0891B2 80%,#1D4ED8 100%);
+  --brand:#2563FF;
+  --brand-line:#FFFFFF;
+  --brand-dot:#FFB020;
+  --shadow-sm:0 1px 2px rgba(10,20,51,.05),0 8px 20px -10px rgba(18,56,217,.18);
+  --shadow:0 2px 4px rgba(10,20,51,.04),0 24px 48px -26px rgba(18,56,217,.32);
+  --shadow-lg:0 34px 80px -34px rgba(18,56,217,.55);
+  --glow-gold:0 12px 30px -10px rgba(255,150,0,.6);
+  --f-display:"Geologica","Onest",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --f-body:"Onest",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --r-sm:12px;
+  --r-md:16px;
+  --r-lg:24px;
+  --gutter:clamp(16px,4vw,40px);
+  --max:1180px;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+/* Vivid electric-blue surfaces: chart card, ticker, lead card, calculator result, CTA band, contacts card, footer */
+.vivid{
+  --surface:rgba(255,255,255,.10);--field:rgba(255,255,255,.10);--ink:#FFFFFF;--ink-2:#E2E9FF;
+  --line:rgba(255,255,255,.22);--line-strong:rgba(255,255,255,.42);--grid:rgba(255,255,255,.09);
+  --blue:#FFFFFF;--blue-soft:rgba(255,255,255,.14);--cyan:#5EEAD4;--gold:#FFC53D;
+  --good:#86EFAC;--good-soft:rgba(134,239,172,.18);--bad:#FECACA;--bad-soft:rgba(254,202,202,.18);
+  --dot-ring:#1A45E6;
+  --g-text:linear-gradient(90deg,#FFE08A 0%,#FFB020 100%);
+  background:var(--g-vivid);color:var(--ink);color-scheme:dark;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 var(--f-body);-webkit-font-smoothing:antialiased}
+img,svg{max-width:100%}
+a{color:var(--blue);text-underline-offset:3px}
+h1,h2,h3{font-family:var(--f-display);font-weight:700;color:var(--ink);margin:0;text-wrap:balance;letter-spacing:-.02em}
+p,dl,dd,figure{margin:0}
+ul,ol{margin:0;padding:0}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:6px}
+.nowrap{white-space:nowrap}
+.wrap{max-width:var(--max);margin-inline:auto;padding-inline:var(--gutter)}
+.label{font:500 .75rem/1.35 var(--f-mono);letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;padding:7px 14px 7px 11px;border-radius:999px;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow-sm);color:var(--blue);font:600 .74rem/1.2 var(--f-mono);letter-spacing:.08em;text-transform:uppercase}
+.eyebrow::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 3px color-mix(in srgb,var(--gold) 32%,transparent)}
+.muted{color:var(--ink-2)}
+.grad{color:var(--blue)}
+@supports ((-webkit-background-clip:text) or (background-clip:text)){
+  .grad{background:var(--g-text);-webkit-background-clip:text;background-clip:text;color:transparent}
+}
+.ic{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.skip{position:absolute;left:16px;top:-80px;z-index:100;background:var(--ink);color:#fff;padding:10px 14px;border-radius:var(--r-sm);text-decoration:none}
+.skip:focus{top:12px}
+
+/* Buttons */
+.btn{position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 26px;border-radius:var(--r-sm);border:1.5px solid transparent;font:700 1rem/1.15 var(--f-body);text-decoration:none;text-align:center;cursor:pointer;transition:transform .25s var(--ease),box-shadow .25s ease,background-color .2s ease,border-color .2s ease,color .2s ease}
+.btn-action{background:var(--g-action);color:var(--on-action);box-shadow:var(--glow-gold)}
+.btn-action::after{content:"";position:absolute;z-index:-1;top:0;bottom:0;left:-70%;width:45%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.8),transparent);transform:skewX(-20deg);transition:left .75s ease}
+.btn-action:hover{transform:translateY(-2px);box-shadow:0 18px 40px -12px rgba(255,140,0,.8)}
+.btn-action:hover::after{left:130%}
+.btn-ghost{background:var(--surface);color:var(--ink);border-color:var(--line-strong)}
+.btn-ghost:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.vivid .btn-ghost:hover{color:var(--ink);border-color:#FFFFFF;background:rgba(255,255,255,.18)}
+.btn-sm{min-height:42px;padding:0 16px;font-size:.93rem}
+.linkbtn{background:none;border:0;padding:0;color:var(--blue);font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.copy{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line-strong);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:4px 11px;font:500 .8rem/1.3 var(--f-body);cursor:pointer;transition:color .2s,border-color .2s}
+.copy:hover{color:var(--blue);border-color:var(--blue)}
+.seg{display:inline-flex;padding:3px;border-radius:999px;background:var(--blue-soft);border:1px solid var(--line)}
+.seg button{border:0;background:transparent;color:var(--ink-2);padding:6px 14px;border-radius:999px;font:600 .85rem/1.2 var(--f-body);cursor:pointer;transition:background-color .25s,color .25s}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#FFFFFF}
+.vivid .seg button[aria-pressed="true"]{background:#FFFFFF;color:#1A45E6}
+
+/* Header */
+.site-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:rgba(255,255,255,.94);border-bottom:1px solid var(--line);transition:box-shadow .3s ease}
+@supports ((backdrop-filter:blur(8px)) or (-webkit-backdrop-filter:blur(8px))){
+  .site-header{background:rgba(255,255,255,.74);-webkit-backdrop-filter:blur(18px) saturate(1.6);backdrop-filter:blur(18px) saturate(1.6)}
+}
+.site-header.scrolled{box-shadow:0 12px 34px -20px rgba(18,56,217,.55)}
+.progress{position:absolute;left:0;right:0;bottom:-1px;height:3px;overflow:hidden;pointer-events:none}
+.progress i{display:block;height:100%;background:linear-gradient(90deg,#2563FF,#22D3EE,#FFB020);transform-origin:left center;transform:scaleX(0)}
+.header-row{display:flex;align-items:center;gap:20px;min-height:68px}
+.brand{display:inline-flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;flex:none}
+.brand-mark{width:34px;height:34px;flex:none;transition:transform .45s var(--ease)}
+.brand:hover .brand-mark{transform:rotate(-10deg) scale(1.08)}
+.bm-bg{fill:var(--brand)}
+.bm-line{fill:none;stroke:var(--brand-line);stroke-width:2.4;stroke-linecap:round}
+.bm-dot{fill:var(--brand-dot)}
+.brand-name{font:800 1.55rem/1 var(--f-display);letter-spacing:-.045em;white-space:nowrap}
+.nav{display:flex;gap:2px;margin-left:auto;min-width:0;overflow:hidden}
+.nav a{position:relative;color:var(--ink-2);text-decoration:none;font-weight:500;font-size:.95rem;padding:8px 8px;border-radius:8px;white-space:nowrap;transition:color .2s}
+.header-actions .btn{white-space:nowrap}
+.nav a::after{content:"";position:absolute;left:8px;right:8px;bottom:3px;height:2px;border-radius:2px;background:linear-gradient(90deg,#2563FF,#22D3EE);transform:scaleX(0);transform-origin:left;transition:transform .3s var(--ease)}
+.nav a:hover{color:var(--ink)}
+.nav a:hover::after{transform:scaleX(1)}
+.header-actions{display:flex;align-items:center;gap:14px;margin-left:auto}
+.nav + .header-actions{margin-left:12px}
+.header-phone{display:inline-flex;align-items:center;gap:8px;padding:5px 14px 5px 5px;border-radius:999px;background:var(--blue-soft);color:var(--ink);font:600 .95rem/1 var(--f-mono);text-decoration:none;white-space:nowrap;transition:background-color .25s,color .25s,transform .25s var(--ease)}
+.hp-ic{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--g-vivid);color:#FFFFFF}
+.hp-ic .ic{width:15px;height:15px}
+.header-phone:hover{background:#DCE6FF;color:var(--blue);transform:translateY(-1px)}
+@media (max-width:1200px){.nav{display:none}.nav + .header-actions{margin-left:auto}}
+@media (max-width:620px){.header-actions .btn-action{display:none}.header-phone{font-size:.9rem}.header-row{min-height:60px}.brand-name{font-size:1.35rem}.brand-mark{width:30px;height:30px}}
+@media (max-width:400px){.header-row{gap:10px}.brand{gap:8px}.brand-name{font-size:1.15rem}.brand-mark{width:28px;height:28px}.header-phone{gap:6px;padding:4px 10px 4px 4px;font-size:.8rem}.hp-ic{width:26px;height:26px}}
+
+/* Hero: pastel aurora on ice white */
+.hero{position:relative;overflow:hidden;background:var(--bg);padding-block:clamp(44px,6.5vw,96px) clamp(40px,5vw,72px)}
+.hero::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:44px 44px;-webkit-mask-image:radial-gradient(ellipse 80% 75% at 70% 30%,#000 25%,transparent 75%);mask-image:radial-gradient(ellipse 80% 75% at 70% 30%,#000 25%,transparent 75%)}
+.aurora{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.aurora i{position:absolute;display:block;border-radius:50%}
+.aurora .a1{width:min(760px,110vw);aspect-ratio:1;right:-16%;top:-38%;background:radial-gradient(closest-side,rgba(37,99,255,.30),transparent 72%)}
+.aurora .a2{width:min(620px,95vw);aspect-ratio:1;right:6%;bottom:-46%;background:radial-gradient(closest-side,rgba(34,211,238,.34),transparent 72%)}
+.aurora .a3{width:min(560px,90vw);aspect-ratio:1;left:-14%;bottom:-40%;background:radial-gradient(closest-side,rgba(255,176,32,.26),transparent 72%)}
+.aurora .a4{width:min(520px,85vw);aspect-ratio:1;left:24%;top:-42%;background:radial-gradient(closest-side,rgba(167,139,250,.20),transparent 72%)}
+.hero > .wrap{position:relative;z-index:1}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(32px,5vw,72px);align-items:center}
+.hero-copy{min-width:0}
+.hero h1{font-size:clamp(2.45rem,5.1vw,4.1rem);line-height:1.04;letter-spacing:-.045em;font-weight:800;margin-top:22px}
+.w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.1em;margin-bottom:-.1em}
+.w > span{display:inline-block;position:relative}
+.mark{position:absolute;left:-.05em;right:-.05em;bottom:.12em;height:.3em;border-radius:.14em;background:linear-gradient(90deg,rgba(255,176,32,.6),rgba(255,138,0,.4));transform-origin:left center}
+.hl{position:relative;color:var(--blue)}
+@supports ((-webkit-background-clip:text) or (background-clip:text)){
+  .hl{background:var(--g-text);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent}
+}
+.lead{margin-top:24px;font-size:clamp(1.06rem,1.35vw,1.2rem);color:#26324F;max-width:38em}
+.lead b{color:var(--ink);font-weight:700}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.hero-phone{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin-top:20px;color:#26324F;font-size:.98rem}
+.phone-num{font:500 1rem/1.3 var(--f-mono);color:var(--ink);text-decoration:none;white-space:nowrap}
+.phone-num:hover{color:var(--blue)}
+
+.chart-wrap{position:relative;min-width:0}
+.chart-card{position:relative;min-width:0;border:1px solid rgba(255,255,255,.25);border-radius:var(--r-lg);box-shadow:var(--shadow-lg);padding:20px;transform:perspective(1200px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .6s var(--ease)}
+.chart-card::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(420px circle at 88% 0%,rgba(94,234,212,.35),transparent 60%)}
+.chart-card::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(520px circle at var(--gx,50%) var(--gy,0%),rgba(255,255,255,.16),transparent 45%)}
+.chart-card > *{position:relative;z-index:1}
+.chart-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.chart{display:block;width:100%;height:auto}
+.chart-legend{list-style:none;display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:8px;font-size:.88rem;color:var(--ink-2)}
+.chart-legend li{display:inline-flex;align-items:center;gap:8px}
+.sw{display:inline-block;width:22px;border-top:3px solid var(--blue);border-radius:2px}
+.sw-d{border-top-color:var(--cyan)}
+.sw-old{border-top:2px dashed var(--cyan)}
+.chart-cap{margin-top:12px;padding-top:12px;border-top:1px solid var(--line);font-size:.95rem;color:var(--ink-2)}
+.chart-cap b{color:var(--ink);font-weight:600}
+.c-grid{fill:none;stroke:var(--grid);stroke-width:1}
+.c-axis{fill:none;stroke:var(--ink-2);stroke-width:1.5}
+.c-head{fill:var(--ink-2)}
+.c-s{fill:none;stroke:var(--blue);stroke-width:3.5;stroke-linecap:round}
+.c-d{fill:none;stroke:var(--cyan);stroke-width:4;stroke-linecap:round;filter:drop-shadow(0 0 7px rgba(94,234,212,.8))}
+.c-d-old{fill:none;stroke:var(--cyan);stroke-width:2;stroke-dasharray:7 7;opacity:.6}
+.c-guide{fill:none;stroke:var(--ink-2);stroke-width:1.2;stroke-dasharray:3 5;opacity:.75}
+.c-dot{fill:var(--gold);stroke:var(--dot-ring);stroke-width:3}
+.c-halo{fill:var(--gold);opacity:.4;transform-box:fill-box;transform-origin:center}
+.c-dot-old{fill:var(--dot-ring);stroke:var(--cyan);stroke-width:2.5}
+.c-shift{fill:none;stroke:var(--cyan);stroke-width:2;stroke-linecap:round}
+.c-shift-head{fill:var(--cyan)}
+.c-t{font:500 14px var(--f-mono);fill:var(--ink-2)}
+.c-call{font:700 15px var(--f-body);fill:var(--ink)}
+@media (max-width:560px){.chart-card{padding:14px}.c-t{font-size:22px}.c-callout{display:none}}
+
+.badge{position:absolute;z-index:3;display:inline-flex;align-items:center;gap:9px;padding:7px 14px 7px 7px;border-radius:999px;background:#FFFFFF;color:var(--ink);font:600 .88rem/1 var(--f-body);white-space:nowrap;box-shadow:0 16px 34px -14px rgba(18,56,217,.55),0 0 0 1px rgba(37,99,255,.08)}
+.badge .bi{display:grid;place-items:center;width:28px;height:28px;border-radius:50%}
+.badge .bi .ic{width:16px;height:16px;stroke-width:2.6}
+.bi.up{background:#DCFCE7;color:#15803D}
+.bi.down{background:#E8EEFF;color:#2563FF}
+.b1{left:7%;top:-22px}
+.b2{left:7%;bottom:-28px}
+.b3{right:7%;bottom:-28px}
+@media (max-width:900px){.badge{display:none}}
+
+.hero-facts{list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:clamp(40px,5vw,64px)}
+.hero-facts li{display:grid;gap:8px;align-content:start;padding:20px 22px;border-radius:var(--r-md);background:rgba(255,255,255,.78);border:1px solid rgba(255,255,255,.95);box-shadow:var(--shadow-sm)}
+@supports ((backdrop-filter:blur(8px)) or (-webkit-backdrop-filter:blur(8px))){.hero-facts li{background:rgba(255,255,255,.62);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}}
+.hf-k{display:flex;align-items:center;gap:10px;font:700 1.08rem/1.25 var(--f-display);color:var(--ink)}
+.hf-k .ic{width:30px;height:30px;padding:6px;border-radius:10px;stroke-width:2.6}
+.hero-facts li:nth-child(1) .ic{background:#E8EEFF;color:#2563FF}
+.hero-facts li:nth-child(2) .ic{background:#DCFCE7;color:#15803D}
+.hero-facts li:nth-child(3) .ic{background:#FFF3D6;color:#B45309}
+.hf-v{font-size:.95rem;color:#3A4665}
+@media (max-width:900px){.hero-grid{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:760px){.hero-facts{grid-template-columns:minmax(0,1fr)}}
+
+/* Niche ticker */
+.marquee{position:relative;overflow:hidden;padding-block:20px;background:var(--g-band);background-size:300% 100%}
+.mq-mask{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 6%,#000 94%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 6%,#000 94%,transparent 100%)}
+.mq-track{display:flex;width:max-content}
+.mq-track ul{display:flex;align-items:center;list-style:none;margin:0;padding:0}
+.mq-track li{display:inline-flex;align-items:center;gap:24px;padding-right:24px;font:700 clamp(1.05rem,1.6vw,1.32rem)/1 var(--f-display);letter-spacing:-.01em;color:#FFFFFF;white-space:nowrap}
+.mq-track li::after{content:"";width:9px;height:9px;border-radius:50%;background:#FFC53D;box-shadow:0 0 12px rgba(255,197,61,.8)}
+.mq-track li:nth-child(3n+2)::after{background:#5EEAD4;box-shadow:0 0 12px rgba(94,234,212,.8)}
+.mq-track li:nth-child(3n+3)::after{background:#FFFFFF;box-shadow:0 0 12px rgba(255,255,255,.8)}
+
+/* Sections */
+.sec{padding-block:clamp(64px,8vw,116px);scroll-margin-top:72px;background:var(--surface)}
+.sec.tint{background:var(--bg-2)}
+.sec-head{display:grid;gap:16px;justify-items:start;max-width:800px;margin-bottom:clamp(32px,4vw,56px)}
+.sec-head h2,.founder-text h2{font-size:clamp(1.95rem,3.7vw,3.1rem);line-height:1.05;font-weight:800;letter-spacing:-.035em}
+.sec-sub{color:var(--ink-2);font-size:1.08rem;max-width:62ch}
+
+/* Comparison */
+.diff{border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;background:var(--surface);box-shadow:var(--shadow)}
+.diff-head,.diff-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.diff-head span{padding:16px 26px;font:600 .76rem/1.3 var(--f-mono);letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2);background:var(--bg-2)}
+.diff-head span + span{background:var(--g-vivid);color:#FFFFFF}
+.diff-row{border-top:1px solid var(--line)}
+.diff-row p{display:flex;gap:14px;align-items:flex-start;padding:20px 26px}
+.diff-bad{color:var(--ink-2)}
+.diff-good{color:var(--ink);font-weight:500;background:#F5F8FF;transition:background-color .25s}
+.diff-row:hover .diff-good{background:var(--blue-soft)}
+.ic-dot{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;flex:none;margin-top:-2px;transition:transform .3s var(--ease)}
+.diff-row:hover .diff-good .ic-dot{transform:scale(1.15)}
+.ic-dot .ic{width:15px;height:15px;stroke-width:2.8}
+.diff-bad .ic-dot{background:var(--bad-soft);color:var(--bad)}
+.diff-good .ic-dot{background:var(--good-soft);color:var(--good)}
+@media (max-width:700px){
+  .diff-head{display:none}
+  .diff-row{grid-template-columns:minmax(0,1fr)}
+  .diff-row p{padding:16px 18px}
+  .diff-bad{padding-bottom:10px!important}
+}
+
+/* Services */
+.svc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.svc-card{--tone:var(--t-blue);--mx:50%;--my:0%;position:relative;display:flex;flex-direction:column;gap:12px;min-width:0;padding:28px 26px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);color:var(--ink);box-shadow:var(--shadow-sm);transition:transform .35s var(--ease),box-shadow .35s ease,border-color .35s ease}
+.svc-card::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(380px circle at var(--mx) var(--my),color-mix(in srgb,var(--tone) 14%,transparent),transparent 55%);opacity:0;transition:opacity .35s ease}
+.svc-card:hover{transform:translateY(-6px);border-color:color-mix(in srgb,var(--tone) 45%,var(--line));box-shadow:0 30px 56px -28px color-mix(in srgb,var(--tone) 70%,transparent)}
+.svc-card:hover::after{opacity:1}
+.svc-card > *{position:relative;z-index:1}
+.svc-ic{display:grid;place-items:center;width:56px;height:56px;border-radius:16px;background:color-mix(in srgb,var(--tone) 13%,#FFFFFF);color:var(--tone);margin-bottom:6px;transition:transform .45s var(--ease)}
+.svc-card:hover .svc-ic{transform:rotate(-8deg) scale(1.1)}
+.svc-ic .ic{width:28px;height:28px;stroke-width:1.9}
+.svc-tag{font:600 .74rem/1.3 var(--f-mono);letter-spacing:.07em;text-transform:uppercase;color:var(--tone)}
+.svc-card h3{font-size:1.38rem;line-height:1.15}
+.svc-desc{color:var(--ink)}
+.svc-fit{margin-top:auto;padding-top:16px;border-top:1px solid var(--line);font-size:.93rem;color:var(--ink-2)}
+@supports (grid-template-rows:subgrid){
+  .svc-card{display:grid;grid-row:span 5;grid-template-rows:subgrid;row-gap:12px}
+  .svc-fit{margin-top:0}
+}
+.svc-fit b{display:block;margin-bottom:3px;font:600 .72rem/1.3 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+.tone-coral{--tone:var(--t-coral)}
+.tone-cyan{--tone:var(--t-cyan)}
+.tone-green{--tone:var(--t-green)}
+.tone-violet{--tone:var(--t-violet)}
+.svc-lead{--tone:#FFC53D;isolation:isolate;background:var(--g-vivid);border-color:transparent;box-shadow:var(--shadow-lg)}
+.svc-lead .svc-ic{background:rgba(255,255,255,.16);color:#FFC53D}
+.svc-lead:hover{border-color:transparent;box-shadow:0 38px 70px -30px rgba(18,56,217,.7)}
+.svc-lead::before{content:"";position:absolute;inset:-2px;z-index:-1;border-radius:calc(var(--r-lg) + 2px);padding:2px;background:conic-gradient(from var(--ang),#FFD166,#22D3EE,#2563FF,#FFD166);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);mask-composite:exclude}
+@media (max-width:980px){.svc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.svc-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* Niches */
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line-strong);background:var(--surface);color:var(--ink);border-radius:999px;padding:9px 16px;font:500 .95rem/1.2 var(--f-body);cursor:pointer;transition:background-color .2s,color .2s,border-color .2s,transform .2s,box-shadow .2s}
+.chip:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.chip[aria-pressed="true"]{background:var(--g-vivid);border-color:transparent;color:#FFFFFF;box-shadow:0 12px 26px -12px rgba(18,56,217,.8)}
+.chip-other{border-style:dashed}
+.niche-panel{position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(24px,4vw,56px);margin-top:24px;padding:clamp(24px,3.5vw,42px);background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--shadow)}
+.niche-panel::before{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:linear-gradient(90deg,#2563FF,#22D3EE 55%,#FFB020)}
+.np-main{display:grid;gap:22px;align-content:start;min-width:0}
+.np-main h3{font-size:clamp(1.45rem,2.4vw,1.9rem);line-height:1.12;font-weight:800;letter-spacing:-.03em}
+.np-facts{display:grid;gap:18px}
+.np-facts dd{margin-top:6px}
+.np-fit{display:grid;gap:12px;align-content:start;min-width:0}
+.fit-list{list-style:none;display:grid}
+.fit-row{display:grid;grid-template-columns:9em minmax(0,1fr) 7em;align-items:center;gap:14px;padding-block:12px;border-bottom:1px solid var(--line)}
+.fit-row:first-child{border-top:1px solid var(--line)}
+.fit-name{font-weight:600}
+.fit-meter{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}
+.fit-meter i{display:block;height:10px;border-radius:4px;background:var(--line);transform-origin:left center}
+.fit-meter i.on{background:linear-gradient(90deg,#2563FF,#22D3EE)}
+.fit-note{font:500 .8rem/1.3 var(--f-mono);color:var(--ink-2);text-align:right}
+.fit-row[data-level="3"] .fit-note{color:var(--blue);font-weight:600}
+.fit-legend{font-size:.9rem;color:var(--ink-2)}
+@media (max-width:900px){.niche-panel{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:480px){
+  .fit-row{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"n t" "m m";row-gap:8px}
+  .fit-name{grid-area:n}.fit-note{grid-area:t}.fit-meter{grid-area:m}
+}
+
+/* Calculator */
+.calc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(24px,4vw,56px);align-items:start}
+.calc-in{display:grid;gap:18px;min-width:0}
+.calc-top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.calc-note{font-size:.9rem;color:var(--ink-2)}
+.field{display:grid;gap:6px;min-width:0;align-content:start}
+.field label{font-weight:600;font-size:.95rem}
+.hint{font-size:.86rem;color:var(--ink-2)}
+.inp{position:relative}
+.inp input{width:100%;min-height:54px;border:1px solid var(--line-strong);border-radius:var(--r-sm);background:var(--field);color:var(--ink);padding:0 64px 0 16px;font:500 1.05rem/1 var(--f-mono);font-variant-numeric:tabular-nums;box-shadow:var(--shadow-sm);transition:border-color .2s,box-shadow .2s}
+.inp input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 4px rgba(37,99,255,.18)}
+.affix{position:absolute;right:16px;top:50%;transform:translateY(-50%);font:500 .9rem/1 var(--f-mono);color:var(--ink-2);pointer-events:none}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:end}
+.calc-out{position:relative;overflow:hidden;display:grid;gap:22px;min-width:0;border:1px solid rgba(255,255,255,.2);border-radius:var(--r-lg);box-shadow:var(--shadow-lg);padding:clamp(22px,3vw,34px)}
+.calc-out::before{content:"";position:absolute;width:440px;height:440px;right:-170px;top:-210px;pointer-events:none;background:radial-gradient(closest-side,rgba(94,234,212,.4),transparent 72%)}
+.calc-out > *{position:relative}
+.out-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;font:600 .85rem/1.2 var(--f-body);transition:background-color .3s,color .3s}
+.pill::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor;box-shadow:0 0 0 3px color-mix(in srgb,currentColor 25%,transparent)}
+.pill.good{background:var(--good-soft);color:var(--good)}
+.pill.bad{background:var(--bad-soft);color:var(--bad)}
+.pill.neutral{background:var(--blue-soft);color:var(--blue)}
+.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:20px;border-top:1px solid var(--line)}
+.stat{display:grid;gap:4px;align-content:start;padding-block:15px;border-bottom:1px solid var(--line);min-width:0}
+.stat dt{font-size:.86rem;color:var(--ink-2)}
+.stat dd{font:600 clamp(1.1rem,1.9vw,1.5rem)/1.2 var(--f-mono);font-variant-numeric:tabular-nums;color:var(--ink);overflow-wrap:anywhere}
+.stat dd.good{color:var(--good)}
+.stat dd.bad{color:var(--bad)}
+.meter{display:grid;gap:12px}
+.m-track{position:relative;height:14px;border-radius:999px;background:var(--bad-soft)}
+.m-ok{position:absolute;left:0;top:0;bottom:0;border-radius:999px 0 0 999px;background:linear-gradient(90deg,rgba(134,239,172,.3),rgba(134,239,172,.6));transition:width .45s var(--ease)}
+.m-be{position:absolute;top:-6px;bottom:-6px;width:3px;border-radius:2px;background:var(--good);transform:translateX(-1.5px);transition:left .45s var(--ease)}
+.m-cpl{position:absolute;top:50%;width:22px;height:22px;border-radius:50%;background:var(--gold);border:3px solid var(--dot-ring);box-shadow:0 0 0 4px rgba(255,197,61,.3),0 0 18px rgba(255,197,61,.8);transform:translate(-50%,-50%);transition:left .45s var(--ease)}
+.m-legend{display:flex;flex-wrap:wrap;gap:6px 20px;font-size:.88rem;color:var(--ink-2)}
+.m-legend span{display:inline-flex;align-items:center;gap:8px}
+.m-legend b{font:600 .9rem/1.2 var(--f-mono);color:var(--ink)}
+.lg{display:inline-block;flex:none}
+.lg-cpl{width:11px;height:11px;border-radius:50%;background:var(--gold)}
+.lg-be{width:3px;height:15px;border-radius:2px;background:var(--good)}
+.calc-sum{font-size:1rem;color:var(--ink)}
+@media (max-width:900px){.calc{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:380px){.two{grid-template-columns:minmax(0,1fr)}}
+
+/* CTA band */
+.cta-band{position:relative;overflow:hidden;padding-block:clamp(52px,6vw,88px);background:var(--g-band);background-size:300% 100%}
+.cta-band::before,.cta-band::after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+.cta-band::before{width:520px;height:520px;right:8%;top:-300px;background:radial-gradient(closest-side,rgba(94,234,212,.45),transparent 72%)}
+.cta-band::after{width:460px;height:460px;left:20%;bottom:-300px;background:radial-gradient(closest-side,rgba(255,197,61,.35),transparent 72%)}
+.cta-row{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.25fr) auto;gap:24px 48px;align-items:center}
+.cta-row h2{font-size:clamp(1.8rem,3.3vw,2.7rem);line-height:1.07;font-weight:800;letter-spacing:-.035em}
+.cta-row p{margin-top:12px;color:#FFFFFF;max-width:54ch}
+.cta-actions{display:flex;flex-wrap:wrap;gap:12px}
+.cta-deco{position:absolute;right:-209px;top:50%;width:440px;height:440px;translate:0 -50%;pointer-events:none}
+.cta-deco path{fill:none;stroke:#FFFFFF;stroke-width:2.4;stroke-linecap:round;opacity:.16}
+.cta-deco circle{fill:#FFC53D}
+@media (max-width:860px){.cta-row{grid-template-columns:minmax(0,1fr)}.cta-deco{display:none}}
+
+/* Process */
+.steps{list-style:none;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px}
+.step{--si:0;position:relative;display:grid;gap:10px;align-content:start;padding-top:68px}
+.step:nth-child(2){--si:1}.step:nth-child(3){--si:2}.step:nth-child(4){--si:3}.step:nth-child(5){--si:4}
+.step::before{content:"";position:absolute;top:24px;left:50px;right:-24px;height:3px;border-radius:3px;background:linear-gradient(90deg,#2563FF,#22D3EE);transform-origin:left center;transition:transform .8s var(--ease);transition-delay:calc(var(--si) * .16s + .25s)}
+.step:last-child::before{display:none}
+.step-n{position:absolute;top:0;left:0;display:grid;place-items:center;width:50px;height:50px;border-radius:50%;background:var(--g-vivid);color:#FFFFFF;font:700 1.08rem/1 var(--f-mono);box-shadow:0 12px 26px -12px rgba(18,56,217,.9);transition:transform .3s var(--ease),scale .6s cubic-bezier(.3,1.6,.4,1),opacity .5s ease;transition-delay:0s,calc(var(--si) * .16s),calc(var(--si) * .16s)}
+.step:first-child .step-n{background:var(--g-action);color:var(--on-action);box-shadow:var(--glow-gold)}
+.step:hover .step-n{transform:scale(1.12)}
+.step h3{font-size:1.15rem;line-height:1.2}
+.step p{color:var(--ink-2);font-size:.97rem}
+.steps.anim .step::before{transform:scaleX(0)}
+.steps.anim .step-n{scale:.5;opacity:.25}
+.steps.anim.in .step::before{transform:scaleX(1)}
+.steps.anim.in .step-n{scale:1;opacity:1}
+@media (max-width:1000px){
+  .steps{grid-template-columns:minmax(0,1fr);gap:0}
+  .step{padding:0 0 30px 72px}
+  .step::before{top:54px;bottom:4px;left:23px;right:auto;width:3px;height:auto;background:linear-gradient(180deg,#2563FF,#22D3EE);transform-origin:center top}
+  .steps.anim .step::before{transform:scaleY(0)}
+  .steps.anim.in .step::before{transform:scaleY(1)}
+  .step h3{padding-top:12px}
+}
+
+/* Founder */
+.founder{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.45fr);gap:clamp(24px,5vw,72px);align-items:start}
+.founder-card{position:relative;overflow:hidden;display:grid;gap:16px;justify-items:start;padding:30px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--shadow);min-width:0}
+.founder-card::before{content:"";position:absolute;left:0;right:0;top:0;height:120px;background:linear-gradient(135deg,#E8EEFF 0%,#DDF7FB 60%,#FFF3D6 100%);pointer-events:none}
+.founder-card > *{position:relative}
+.avatar{position:relative;display:grid;place-items:center;width:96px;height:96px;border-radius:28px;background:var(--g-vivid);box-shadow:0 18px 34px -14px rgba(18,56,217,.8)}
+.avatar span{font:800 2.1rem/1 var(--f-display);letter-spacing:-.04em;color:#FFFFFF}
+.avatar i{position:absolute;right:-7px;bottom:-7px;width:26px;height:26px;border-radius:50%;background:var(--g-action);border:4px solid #FFFFFF}
+.founder-name{font:800 1.6rem/1.1 var(--f-display);letter-spacing:-.03em;margin-top:6px}
+.founder-role{color:var(--ink-2);margin-top:2px}
+.founder-phone{font:600 1.2rem/1.2 var(--f-mono);color:var(--ink);text-decoration:none}
+.founder-phone:hover{color:var(--blue)}
+.founder-actions{display:flex;flex-wrap:wrap;gap:8px}
+.founder-text{display:grid;gap:18px;min-width:0}
+.founder-text > p:not(.eyebrow){font-size:1.1rem;max-width:62ch}
+.founder-text .eyebrow{justify-self:start}
+.principles{list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:10px}
+.principle{--tone:var(--t-blue);--mx:50%;--my:0%;position:relative;display:grid;gap:8px;align-content:start;padding:20px;border-radius:var(--r-md);border:1px solid var(--line);background:var(--surface);box-shadow:var(--shadow-sm);transition:transform .35s var(--ease),border-color .35s,box-shadow .35s}
+.principle::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(260px circle at var(--mx) var(--my),color-mix(in srgb,var(--tone) 14%,transparent),transparent 60%);opacity:0;transition:opacity .35s}
+.principle:hover{transform:translateY(-4px);border-color:color-mix(in srgb,var(--tone) 45%,var(--line));box-shadow:0 22px 44px -24px color-mix(in srgb,var(--tone) 60%,transparent)}
+.principle:hover::after{opacity:1}
+.principle > *{position:relative;z-index:1}
+.principle h3{display:flex;align-items:center;gap:10px;font-size:1.04rem;line-height:1.25}
+.principle h3 .ic{width:34px;height:34px;padding:7px;border-radius:10px;background:color-mix(in srgb,var(--tone) 13%,#FFFFFF);color:var(--tone)}
+.principle p{font-size:.94rem;color:var(--ink-2)}
+@media (max-width:1000px){.principles{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:860px){.founder{grid-template-columns:minmax(0,1fr)}}
+
+/* FAQ */
+.faq-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);gap:clamp(24px,5vw,72px);align-items:start}
+.faq-grid .sec-head{margin-bottom:0}
+.faq-list{display:grid;gap:10px}
+.faq-list details{border:1px solid var(--line);border-radius:var(--r-md);background:var(--surface);padding-inline:22px;box-shadow:var(--shadow-sm);transition:border-color .25s,box-shadow .25s}
+.faq-list details[open]{border-color:color-mix(in srgb,var(--blue) 40%,var(--line));box-shadow:var(--shadow)}
+.faq-list summary{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:20px;cursor:pointer;list-style:none;font:700 1.1rem/1.3 var(--f-display);letter-spacing:-.01em;transition:color .2s}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary:hover,.faq-list details[open] summary{color:var(--blue)}
+.pm{position:relative;display:grid;place-items:center;width:34px;height:34px;flex:none;border-radius:50%;background:var(--blue-soft);transition:background-color .25s,transform .4s var(--ease)}
+.pm::before,.pm::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:2px;border-radius:1px;background:var(--blue);transform:translate(-50%,-50%)}
+.pm::after{transform:translate(-50%,-50%) rotate(90deg)}
+.faq-list details[open] .pm{background:var(--blue);transform:rotate(45deg)}
+.faq-list details[open] .pm::before,.faq-list details[open] .pm::after{background:#FFFFFF}
+.ans{padding-bottom:22px;color:var(--ink-2);max-width:64ch}
+@media (max-width:860px){.faq-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* Contact */
+.contact{position:relative;overflow:hidden;background:var(--bg-2)}
+.contact > .wrap{position:relative;z-index:1}
+.contact-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,.85fr);gap:clamp(24px,4vw,40px);align-items:start}
+.form-card{min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--shadow);padding:clamp(20px,3.5vw,36px)}
+.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.form-grid .full{grid-column:1/-1}
+.form-grid input,.form-grid select,.form-grid textarea{width:100%;min-height:54px;border:1px solid var(--line-strong);border-radius:var(--r-sm);background:var(--field);color:var(--ink);padding:12px 14px;font:400 1rem/1.4 var(--f-body);transition:border-color .2s,box-shadow .2s}
+.form-grid textarea{min-height:110px;resize:vertical}
+.form-grid input:focus,.form-grid select:focus,.form-grid textarea:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 4px rgba(37,99,255,.18)}
+.form-grid [aria-invalid="true"]{border-color:var(--bad)}
+.form-grid ::placeholder{color:var(--ink-2);opacity:.75}
+.req{color:var(--bad)}
+.err{font-size:.86rem;color:var(--bad)}
+.form-foot{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;margin-top:22px}
+.form-foot .hint{max-width:44ch}
+.result{display:grid;gap:16px}
+.result h3{font-size:1.6rem;line-height:1.15}
+.result h3:focus{outline:none}
+.send-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px}
+.msg-box{width:100%;min-height:160px;border:1px dashed var(--line-strong);border-radius:var(--r-sm);background:var(--bg-2);color:var(--ink);padding:12px 14px;font:400 .92rem/1.5 var(--f-mono);resize:vertical}
+.contacts{position:relative;overflow:hidden;display:grid;gap:18px;align-content:start;min-width:0;padding:clamp(22px,3vw,32px);border-radius:var(--r-lg);box-shadow:var(--shadow-lg)}
+.contacts::before{content:"";position:absolute;width:380px;height:380px;right:-160px;bottom:-190px;pointer-events:none;background:radial-gradient(closest-side,rgba(255,197,61,.35),transparent 72%)}
+.contacts > *{position:relative}
+.big-phone{font:600 clamp(1.45rem,2.6vw,1.95rem)/1.15 var(--f-mono);letter-spacing:-.02em;color:var(--ink);text-decoration:none}
+.big-phone:hover{color:var(--gold)}
+.c-actions{display:flex;flex-wrap:wrap;gap:8px}
+.c-links{list-style:none;display:grid;border-top:1px solid var(--line)}
+.c-links a{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-block:15px;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none;font-weight:600;transition:color .2s,padding-left .25s}
+.c-links a span{color:var(--ink-2);font-weight:400;font-size:.92rem}
+.c-links a:hover{color:var(--gold);padding-left:6px}
+@media (max-width:900px){.contact-grid{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:560px){.form-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* Footer */
+.site-footer{padding-block:34px}
+.site-footer.vivid{background:linear-gradient(120deg,#0B1B66 0%,#1030CC 100%)}
+.foot-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 28px}
+.foot-row p{color:var(--ink-2);font-size:.92rem}
+.foot-links{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.92rem}
+.foot-links a{color:var(--ink-2);text-decoration:none;transition:color .2s}
+.foot-links a:hover{color:var(--gold)}
+
+/* Mobile contact bar */
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:none;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:10px var(--gutter) calc(10px + env(safe-area-inset-bottom,0px));background:rgba(255,255,255,.96);border-top:1px solid var(--line);box-shadow:0 -10px 30px -20px rgba(18,56,217,.5)}
+@supports ((backdrop-filter:blur(8px)) or (-webkit-backdrop-filter:blur(8px))){.mbar{background:rgba(255,255,255,.8);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px)}}
+.mbar a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:52px;border-radius:var(--r-sm);font:600 .82rem/1.2 var(--f-body);text-decoration:none;color:var(--ink);background:#FFFFFF;border:1px solid var(--line)}
+.mbar a.primary{background:var(--g-action);color:var(--on-action);border-color:transparent;box-shadow:var(--glow-gold)}
+@media (max-width:720px){.mbar{display:grid}body{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}}
+
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:60;width:max-content;max-width:min(92vw,440px);padding:12px 16px;border-radius:var(--r-sm);background:var(--ink);color:#FFFFFF;font-size:.93rem;box-shadow:var(--shadow);transform:translate(-50%,16px);opacity:0;pointer-events:none;transition:opacity .25s ease,transform .25s ease}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+@media (max-width:720px){.toast{bottom:calc(92px + env(safe-area-inset-bottom,0px))}}
+
+/* Scroll reveal: script marks only blocks below the first screen, so the page reads fully without it */
+.reveal.pre{opacity:.12;translate:0 46px;scale:.97;transition-property:opacity,translate,scale,transform,box-shadow,border-color;transition-duration:.95s,.95s,.95s,.35s,.35s,.35s;transition-timing-function:var(--ease);transition-delay:var(--rd,0s),var(--rd,0s),var(--rd,0s),0s,0s,0s}
+.reveal.pre.in{opacity:1;translate:0 0;scale:1}
+
+/* Motion */
+@keyframes wordUp{from{transform:translateY(62%);opacity:.2}to{transform:none;opacity:1}}
+@keyframes markIn{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes riseCard{from{opacity:.2;translate:0 40px;scale:.95}to{opacity:1;translate:0 0;scale:1}}
+@keyframes rise{from{opacity:.2;translate:0 26px}to{opacity:1;translate:0 0}}
+@keyframes shimmer{to{background-position:-200% 0}}
+@keyframes drift1{to{translate:-12% 14%;scale:1.18}}
+@keyframes drift2{to{translate:-20% -12%;scale:1.12}}
+@keyframes drift3{to{translate:22% -10%;scale:1.2}}
+@keyframes drift4{to{translate:14% 18%;scale:1.1}}
+@keyframes pulse{0%{transform:scale(.5);opacity:.65}100%{transform:scale(2.1);opacity:0}}
+@keyframes breathe{0%,100%{box-shadow:var(--glow-gold)}50%{box-shadow:0 14px 44px -6px rgba(255,150,0,.85)}}
+@keyframes marquee{to{transform:translateX(-50%)}}
+@keyframes bgmove{to{background-position:300% 0}}
+@keyframes spin{to{--ang:360deg}}
+@keyframes floaty{from{rotate:-6deg;translate:0 -53%}to{rotate:6deg;translate:0 -47%}}
+@keyframes bob{from{translate:0 -7px}to{translate:0 7px}}
+@keyframes swapIn{from{opacity:.25;translate:0 12px}to{opacity:1;translate:0 0}}
+@keyframes grow{from{transform:scaleX(.06)}to{transform:scaleX(1)}}
+
+@media (prefers-reduced-motion:no-preference){
+  .w > span{animation:wordUp .9s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(.08s + var(--i,0) * .085s)}
+  .mark{animation:markIn .75s cubic-bezier(.2,.8,.2,1) 1s both}
+  .hl{animation:shimmer 7s linear 1.6s infinite}
+  .rise{animation:rise .9s var(--ease) both;animation-delay:var(--d,0s)}
+  .chart-wrap.rise{animation-name:riseCard;animation-duration:1.1s}
+  .aurora .a1{animation:drift1 20s ease-in-out infinite alternate}
+  .aurora .a2{animation:drift2 24s ease-in-out infinite alternate}
+  .aurora .a3{animation:drift3 28s ease-in-out infinite alternate}
+  .aurora .a4{animation:drift4 32s ease-in-out infinite alternate}
+  .c-halo{animation:pulse 2.4s ease-out infinite}
+  .badge{animation:bob 3.4s ease-in-out infinite alternate}
+  .b2{animation-delay:-1.1s}.b3{animation-delay:-2.2s}
+  .btn-breathe{animation:breathe 3.2s ease-in-out infinite}
+  .mq-track{animation:marquee 46s linear infinite}
+  .marquee:hover .mq-track{animation-play-state:paused}
+  .marquee,.cta-band{animation:bgmove 14s linear infinite}
+  .svc-lead::before{animation:spin 6s linear infinite}
+  .cta-deco{animation:floaty 9s ease-in-out infinite alternate}
+  .niche-panel.swap .np-main,.niche-panel.swap .np-fit{animation:swapIn .5s var(--ease) both}
+  .niche-panel.swap .np-fit{animation-delay:.08s}
+  .fit-meter i.on{animation:grow .7s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--r,0) * 70ms + var(--s,0) * 90ms)}
+  .fit-row:nth-child(2){--r:1}.fit-row:nth-child(3){--r:2}.fit-row:nth-child(4){--r:3}.fit-row:nth-child(5){--r:4}
+  .fit-meter i:nth-child(2){--s:1}.fit-meter i:nth-child(3){--s:2}
+  .faq-list details[open] .ans{animation:swapIn .4s var(--ease) both}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+</style>
+
+<a class="skip" href="#zayavka">Перейти к заявке</a>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="#top" aria-label="Talab, наверх страницы">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect class="bm-bg" width="32" height="32" rx="8"/><path class="bm-line" d="M7 25 25 8"/><path class="bm-line" d="M9 8 25 24"/><circle class="bm-dot" cx="16.8" cy="15.8" r="3.4"/></svg>
+      <span class="brand-name">talab</span>
+    </a>
+    <nav class="nav" aria-label="Разделы">
+      <a href="#uslugi">Услуги</a>
+      <a href="#nishi">Ниши</a>
+      <a href="#raschet">Калькулятор</a>
+      <a href="#process">Процесс</a>
+      <a href="#osnovatel">Основатель</a>
+    </nav>
+    <div class="header-actions">
+      <a class="header-phone" href="tel:+998970088009" aria-label="Позвонить: +998 97 008 80 09"><span class="hp-ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3.5h3.3l1.7 4.4-2.1 1.3a11.5 11.5 0 0 0 6.7 6.7l1.3-2.1 4.4 1.7v3.3a1.8 1.8 0 0 1-1.9 1.8A16.9 16.9 0 0 1 3.4 5.4a1.8 1.8 0 0 1 1.8-1.9z"/></svg></span><span>+998 97 008 80 09</span></a>
+      <a class="btn btn-action btn-sm" href="#zayavka">Бесплатный разбор</a>
+    </div>
+  </div>
+  <div class="progress" aria-hidden="true"><i id="progress-bar"></i></div>
+</header>
+
+<main id="top">
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="aurora" aria-hidden="true"><i class="a1"></i><i class="a2"></i><i class="a3"></i><i class="a4"></i></div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow rise" style="--d:.02s">Маркетинговое агентство · Ташкент</p>
+        <h1 id="hero-title" aria-label="Создаём спрос на ваш бизнес в любой нише">
+          <span class="w" style="--i:0" aria-hidden="true"><span>Создаём</span></span>
+          <span class="w" style="--i:1" aria-hidden="true"><span><i class="mark"></i><span class="hl">спрос</span></span></span>
+          <span class="w" style="--i:2" aria-hidden="true"><span>на&nbsp;ваш</span></span>
+          <span class="w" style="--i:3" aria-hidden="true"><span>бизнес</span></span>
+          <span class="w" style="--i:4" aria-hidden="true"><span>в&nbsp;любой</span></span>
+          <span class="w" style="--i:5" aria-hidden="true"><span>нише</span></span>
+        </h1>
+        <p class="lead rise" style="--d:.55s"><b>Talab</b> по-узбекски значит «спрос». Мы создаём его для компаний из любых ниш: настраиваем таргет в Meta Ads, Яндекс Директ, Telegram Ads, OLX и SEO и считаем результат в заявках и продажах.</p>
+        <div class="hero-cta rise" style="--d:.68s">
+          <a class="btn btn-action btn-breathe" href="#zayavka">Получить бесплатный разбор <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost" href="https://t.me/+998970088009" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M21.5 2.5 10.8 13.2"/><path d="M21.5 2.5 14.6 21.5l-3.8-8.3-8.3-3.8z"/></svg> Написать в Telegram</a>
+        </div>
+        <p class="hero-phone rise" style="--d:.78s">или позвоните: <a class="phone-num" href="tel:+998970088009">+998 97 008 80 09</a> <button type="button" class="copy" data-copy="+998 97 008 80 09" data-copy-msg="Номер скопирован: +998 97 008 80 09">Копировать</button></p>
+      </div>
+
+      <div class="chart-wrap rise" style="--d:.3s">
+        <span class="badge b1" aria-hidden="true"><span class="bi up"><svg class="ic" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg></span>Заявки</span>
+        <span class="badge b2" aria-hidden="true"><span class="bi down"><svg class="ic" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span>Цена заявки</span>
+        <span class="badge b3" aria-hidden="true"><span class="bi up"><svg class="ic" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg></span>Продажи</span>
+        <figure class="chart-card vivid">
+          <div class="chart-head">
+            <p class="label">Спрос и предложение</p>
+            <div class="seg" role="group" aria-label="Состояние рынка">
+              <button type="button" id="st-now" aria-pressed="false">Сейчас</button>
+              <button type="button" id="st-talab" aria-pressed="true">С Talab</button>
+            </div>
+          </div>
+          <svg class="chart" viewBox="0 0 520 360" role="img" aria-labelledby="chart-t chart-d">
+            <title id="chart-t">Спрос и предложение</title>
+            <desc id="chart-d">Кривая спроса сдвигается вправо. Продажи растут с Q1 до Q2, цена растёт с P1 до P2.</desc>
+            <defs>
+              <pattern id="gp" x="64" y="28" width="24" height="24" patternUnits="userSpaceOnUse"><path class="c-grid" d="M24 0H0V24"/></pattern>
+            </defs>
+            <rect x="64" y="28" width="432" height="294" fill="url(#gp)"/>
+            <path class="c-axis" d="M64 24V322H502"/>
+            <path class="c-head" d="M64 14l-5 11h10z"/>
+            <path class="c-head" d="M512 322l-11-5v10z"/>
+            <text class="c-t" x="76" y="22">Цена</text>
+            <text class="c-t" x="500" y="344" text-anchor="end">Продажи</text>
+            <line class="c-s" x1="100" y1="300" x2="470" y2="70"/>
+            <g id="ghost">
+              <line class="c-d-old" x1="80" y1="70" x2="360" y2="305"/>
+              <line class="c-guide" x1="245.9" y1="209.3" x2="245.9" y2="322"/>
+              <line class="c-guide" x1="64" y1="209.3" x2="245.9" y2="209.3"/>
+              <circle class="c-dot-old" cx="245.9" cy="209.3" r="6"/>
+              <text class="c-t" x="245.9" y="344" text-anchor="middle">Q₁</text>
+              <text class="c-t" x="56" y="214" text-anchor="end">P₁</text>
+              <g id="shift-g">
+                <line class="c-shift" id="shift" x1="140" y1="112" x2="228" y2="112"/>
+                <path class="c-shift-head" id="shift-head" d="M236 112l-10-5v10z"/>
+              </g>
+            </g>
+            <line class="c-d" id="d-line" x1="190" y1="70" x2="470" y2="305"/>
+            <line class="c-guide" id="g-v" x1="309.1" y1="170" x2="309.1" y2="322"/>
+            <line class="c-guide" id="g-h" x1="64" y1="170" x2="309.1" y2="170"/>
+            <circle class="c-halo" id="e-halo" cx="309.1" cy="170" r="16"/>
+            <circle class="c-dot" id="e-dot" cx="309.1" cy="170" r="8"/>
+            <text class="c-t" id="q-lab" x="309.1" y="344" text-anchor="middle">Q₂</text>
+            <text class="c-t" id="p-lab" x="56" y="175" text-anchor="end">P₂</text>
+            <g class="c-callout" id="callout">
+              <text class="c-call" x="364" y="172">Больше продаж</text>
+              <text class="c-call" x="364" y="192">без демпинга</text>
+            </g>
+          </svg>
+          <ul class="chart-legend">
+            <li><i class="sw" aria-hidden="true"></i>Предложение</li>
+            <li><i class="sw sw-d" aria-hidden="true"></i><span id="lg-d">Спрос с Talab</span></li>
+            <li id="lg-old"><i class="sw sw-old" aria-hidden="true"></i>Спрос сейчас</li>
+          </ul>
+          <figcaption class="chart-cap">Когда спрос на ваш продукт растёт, вы продаёте больше и не снижаете цену. <b>Наша работа — сдвинуть кривую спроса вправо.</b></figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <ul class="hero-facts rise" style="--d:.9s">
+      <li>
+        <span class="hf-k"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 8l9 5 9-5-9-5z"/><path d="m3 13 9 5 9-5"/></svg>5 каналов и стратегия</span>
+        <span class="hf-v">Meta Ads, Яндекс Директ, Telegram Ads, OLX и SEO в одних руках и в одном отчёте.</span>
+      </li>
+      <li>
+        <span class="hf-k"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.8-4.8"/></svg>Бесплатный разбор</span>
+        <span class="hf-v">Смотрим нишу, конкурентов и текущую рекламу до того, как вы заплатите.</span>
+      </li>
+      <li>
+        <span class="hf-k"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V11M12 20V5M19 20v-8"/></svg>Отчёт каждую неделю</span>
+        <span class="hf-v">Заявки, цена заявки и продажи. Видно, куда уходит каждый сум.</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="marquee vivid" aria-label="Ниши, с которыми работаем">
+  <div class="mq-mask">
+    <div class="mq-track">
+      <ul>
+        <li>Стройка и стройматериалы</li><li>Производство</li><li>Опт и дистрибуция</li><li>Логистика</li><li>Услуги для бизнеса</li><li>Оборудование и спецтехника</li><li>Одежда и ритейл</li><li>Красота и косметика</li><li>Ремонт и сервис</li><li>Медицина и клиники</li><li>Образование</li><li>Недвижимость</li>
+      </ul>
+      <ul aria-hidden="true">
+        <li>Стройка и стройматериалы</li><li>Производство</li><li>Опт и дистрибуция</li><li>Логистика</li><li>Услуги для бизнеса</li><li>Оборудование и спецтехника</li><li>Одежда и ритейл</li><li>Красота и косметика</li><li>Ремонт и сервис</li><li>Медицина и клиники</li><li>Образование</li><li>Недвижимость</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="raznica" aria-labelledby="diff-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Разница</p>
+      <h2 id="diff-title">Маркетинг, который отчитывается <span class="grad">продажами</span></h2>
+      <p class="sec-sub">Мы смотрим на рекламу глазами отдела продаж. Вот чем это отличается от привычного подхода.</p>
+    </div>
+    <div class="diff reveal" role="table" aria-label="Сравнение подходов">
+      <div class="diff-head" role="row"><span role="columnheader">Как обычно</span><span role="columnheader">Как в Talab</span></div>
+      <div class="diff-row" role="row">
+        <p class="diff-bad" role="cell"><span class="ic-dot"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17"/></svg></span>Отчёт про охваты, показы и клики</p>
+        <p class="diff-good" role="cell"><span class="ic-dot"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg></span>Отчёт в заявках, цене заявки и продажах</p>
+      </div>
+      <div class="diff-row" role="row">
+        <p class="diff-bad" role="cell"><span class="ic-dot"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17"/></svg></span>Приходят случайные заявки</p>
+        <p class="diff-good" role="cell"><span class="ic-dot"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg></span>Отсекаем случайных людей на входе: вопросы в лид-формах, минус-слова, точные аудитории</p>
+      </div>
+      <div class="diff-row" role="row">
+        <p class="diff-bad" role="cell"><span class="ic-dot"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17"/></svg></span>Непонятно, какой канал приносит клиентов</p>
+        <p class="diff-good" role="cell"><span class="ic-dot"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg></span>Метки на каждом канале: видно, откуда пришла каждая заявка</p>
+      </div>
+      <div class="diff-row" role="row">
+        <p class="diff-bad" role="cell"><span class="ic-dot"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17"/></svg></span>Один шаблон для всех ниш</p>
+        <p class="diff-good" role="cell"><span class="ic-dot"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg></span>Свой набор каналов под вашу нишу и вашего клиента</p>
+      </div>
+      <div class="diff-row" role="row">
+        <p class="diff-bad" role="cell"><span class="ic-dot"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17"/></svg></span>Рекламные кабинеты оформлены на агентство</p>
+        <p class="diff-good" role="cell"><span class="ic-dot"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg></span>Кабинеты и данные остаются у вас</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec tint" id="uslugi" aria-labelledby="svc-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Услуги</p>
+      <h2 id="svc-title">Каналы, которые приводят <span class="grad">клиентов</span></h2>
+      <p class="sec-sub">Начинаем со стратегии и запускаем рекламу там, где ваш клиент уже ищет решение. Все каналы в одних руках и в одном отчёте.</p>
+    </div>
+    <div class="svc-grid" data-stagger>
+      <article class="svc-card svc-lead vivid reveal">
+        <span class="svc-ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h6.5"/></svg></span>
+        <p class="svc-tag">Первый шаг</p>
+        <h3>Стратегический маркетинг-план</h3>
+        <p class="svc-desc">Разбираем рынок, конкурентов и путь клиента до сделки. Считаем, сколько можно платить за заявку. На выходе план на три месяца: каналы, бюджеты, KPI и порядок запуска.</p>
+        <p class="svc-fit"><b>Подходит, если</b>Запускаете продукт, выходите в новую нишу или реклама уже была, но не окупилась.</p>
+      </article>
+      <article class="svc-card reveal">
+        <span class="svc-ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></svg></span>
+        <p class="svc-tag">Instagram · Facebook</p>
+        <h3>Таргет в Meta Ads</h3>
+        <p class="svc-desc">Кампании на заявки и сообщения, лид-формы с вопросами, креативы и Reels. В Узбекистане узкие интересы работают слабо, поэтому ставим на сильные креативы и Advantage+.</p>
+        <p class="svc-fit"><b>Подходит, если</b>Ваши клиенты сидят в Instagram: владельцы бизнеса, закупщики, частные покупатели.</p>
+      </article>
+      <article class="svc-card tone-coral reveal">
+        <span class="svc-ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.8-4.8"/></svg></span>
+        <p class="svc-tag">Поиск · РСЯ</p>
+        <h3>Яндекс Директ</h3>
+        <p class="svc-desc">Реклама для тех, кто уже ищет ваш товар или услугу. Запросы, минус-слова, объявления под каждую группу запросов и ретаргетинг в рекламной сети Яндекса.</p>
+        <p class="svc-fit"><b>Подходит, если</b>Ваш продукт ищут словами «купить», «цена», «оптом», «рядом».</p>
+      </article>
+      <article class="svc-card tone-cyan reveal">
+        <span class="svc-ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10.5v3a1 1 0 0 0 1 1H7l6 4.5v-15L7 9.5H4.5a1 1 0 0 0-1 1z"/><path d="M16.5 9a4 4 0 0 1 0 6"/><path d="M19 6.5a7.5 7.5 0 0 1 0 11"/></svg></span>
+        <p class="svc-tag">Каналы Telegram</p>
+        <h3>Telegram Ads</h3>
+        <p class="svc-desc">Официальная реклама в тематических каналах и размещения в профильных каналах. Подбираем каналы, которые читает ваш клиент, и тексты, которые ведут в чат или бот.</p>
+        <p class="svc-fit"><b>Подходит, если</b>Ваша аудитория читает Telegram, а в Узбекистане это главный мессенджер.</p>
+      </article>
+      <article class="svc-card tone-green reveal">
+        <span class="svc-ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12.2V4.5a1 1 0 0 1 1-1h7.7l8.3 8.3-8.7 8.7z"/><circle cx="8" cy="8" r="1.6"/></svg></span>
+        <p class="svc-tag">OLX.uz</p>
+        <h3>Реклама на OLX</h3>
+        <p class="svc-desc">Продающие объявления и бизнес-страница. Продвигаем поднятиями, ТОП и VIP-размещением, следим за ценами конкурентов в вашей категории.</p>
+        <p class="svc-fit"><b>Подходит, если</b>Продаёте товары, технику, стройматериалы или услуги, которые ищут на OLX.</p>
+      </article>
+      <article class="svc-card tone-violet reveal">
+        <span class="svc-ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16"/><path d="M5.5 15.5 10 11l3 3 6-6"/><path d="M15 8h4v4"/></svg></span>
+        <p class="svc-tag">Google · Яндекс</p>
+        <h3>SEO-продвижение</h3>
+        <p class="svc-desc">Техническая оптимизация сайта, структура и тексты под запросы клиентов. Канал, который со временем приносит заявки без оплаты за каждый клик.</p>
+        <p class="svc-fit"><b>Подходит, если</b>У вас есть сайт или вы готовы его сделать и планируете на год вперёд.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="nishi" aria-labelledby="niche-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Ниши</p>
+      <h2 id="niche-title">Любая ниша. <span class="grad">Свой набор каналов</span></h2>
+      <p class="sec-sub">Выберите свою нишу: покажем, кто ваш клиент, где он ищет и с чего мы бы начали. Нет вашей ниши в списке? Разберём её на бесплатной консультации.</p>
+    </div>
+    <div class="chips reveal" id="niche-chips" role="group" aria-label="Выбор ниши">
+      <button type="button" class="chip" data-id="stroy" aria-pressed="true">Стройка и стройматериалы</button>
+      <button type="button" class="chip" data-id="proizvodstvo" aria-pressed="false">Производство</button>
+      <button type="button" class="chip" data-id="opt" aria-pressed="false">Опт и дистрибуция</button>
+      <button type="button" class="chip" data-id="uslugi" aria-pressed="false">Услуги для бизнеса</button>
+      <button type="button" class="chip" data-id="logistika" aria-pressed="false">Логистика и грузоперевозки</button>
+      <button type="button" class="chip" data-id="oborudovanie" aria-pressed="false">Оборудование и спецтехника</button>
+      <button type="button" class="chip" data-id="riteyl" aria-pressed="false">Одежда и ритейл</button>
+      <button type="button" class="chip" data-id="krasota" aria-pressed="false">Красота и косметика</button>
+      <button type="button" class="chip" data-id="servis" aria-pressed="false">Ремонт и сервис</button>
+      <button type="button" class="chip" data-id="medicina" aria-pressed="false">Медицина и клиники</button>
+      <button type="button" class="chip" data-id="obrazovanie" aria-pressed="false">Образование и курсы</button>
+      <button type="button" class="chip" data-id="nedvizhimost" aria-pressed="false">Недвижимость</button>
+      <button type="button" class="chip chip-other" data-id="other" aria-pressed="false">Другая ниша</button>
+    </div>
+    <div class="niche-panel reveal" id="niche-panel" aria-live="polite">
+      <div class="np-main">
+        <h3 id="np-name">Стройка и стройматериалы</h3>
+        <dl class="np-facts">
+          <div><dt class="label">Кто ваш клиент</dt><dd id="np-who">Прорабы, строительные компании, снабженцы и частные застройщики.</dd></div>
+          <div><dt class="label">Где он ищет</dt><dd id="np-where">Ищут в Яндексе и Google по запросам «купить оптом» и «цена за тонну», сравнивают предложения на OLX, спрашивают в строительных Telegram-чатах.</dd></div>
+          <div><dt class="label">С чего начнём</dt><dd id="np-start">Поисковая реклама по коммерческим запросам и актуальный прайс в обмен на контакт.</dd></div>
+        </dl>
+        <div><a class="btn btn-action" id="np-cta" href="#zayavka">Обсудить мою нишу</a></div>
+      </div>
+      <div class="np-fit">
+        <p class="label">Каналы для этой ниши</p>
+        <ul class="fit-list" id="np-fit">
+          <li class="fit-row" data-level="2"><span class="fit-name">Meta Ads</span><span class="fit-meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i></span><span class="fit-note">усиливает</span></li>
+          <li class="fit-row" data-level="3"><span class="fit-name">Яндекс Директ</span><span class="fit-meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span><span class="fit-note">основной</span></li>
+          <li class="fit-row" data-level="2"><span class="fit-name">Telegram Ads</span><span class="fit-meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i></span><span class="fit-note">усиливает</span></li>
+          <li class="fit-row" data-level="3"><span class="fit-name">OLX</span><span class="fit-meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i></span><span class="fit-note">основной</span></li>
+          <li class="fit-row" data-level="2"><span class="fit-name">SEO</span><span class="fit-meter" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i></span><span class="fit-note">усиливает</span></li>
+        </ul>
+        <p class="fit-legend" id="np-legend">Стратегический план — первый шаг в любой нише. Точный набор каналов подтверждаем на разборе.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec tint" id="raschet" aria-labelledby="calc-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Калькулятор</p>
+      <h2 id="calc-title">Сколько вы можете <span class="grad">платить за заявку</span></h2>
+      <p class="sec-sub">Подставьте цифры своего бизнеса. Калькулятор покажет, сколько продаж даст бюджет и до какой цены заявки реклама окупается.</p>
+    </div>
+    <div class="calc" data-stagger>
+      <form class="calc-in reveal" id="calc-form" novalidate>
+        <div class="calc-top">
+          <p class="calc-note">В полях пример. Замените его на свои цифры.</p>
+          <div class="seg" role="group" aria-label="Валюта">
+            <button type="button" data-cur="uzs" aria-pressed="true">сум</button>
+            <button type="button" data-cur="usd" aria-pressed="false">$</button>
+          </div>
+        </div>
+        <div class="field">
+          <label for="c-budget">Рекламный бюджет в месяц</label>
+          <div class="inp"><input id="c-budget" inputmode="decimal" autocomplete="off" value="5 000 000"><span class="affix" data-affix>сум</span></div>
+        </div>
+        <div class="field">
+          <label for="c-cpl">Цена одной заявки</label>
+          <div class="inp"><input id="c-cpl" inputmode="decimal" autocomplete="off" value="100 000"><span class="affix" data-affix>сум</span></div>
+          <p class="hint">Не знаете? Возьмите цифру из прошлых кампаний или спросите нас на разборе.</p>
+        </div>
+        <div class="two">
+          <div class="field">
+            <label for="c-conv">Конверсия в продажу</label>
+            <div class="inp"><input id="c-conv" inputmode="decimal" autocomplete="off" value="10"><span class="affix">%</span></div>
+          </div>
+          <div class="field">
+            <label for="c-margin">Маржинальность</label>
+            <div class="inp"><input id="c-margin" inputmode="decimal" autocomplete="off" value="20"><span class="affix">%</span></div>
+          </div>
+        </div>
+        <div class="field">
+          <label for="c-check">Средний чек</label>
+          <div class="inp"><input id="c-check" inputmode="decimal" autocomplete="off" value="15 000 000"><span class="affix" data-affix>сум</span></div>
+        </div>
+      </form>
+
+      <div class="calc-out vivid reveal" aria-live="polite">
+        <div class="out-head">
+          <p class="label">Результат за месяц</p>
+          <span class="pill good" id="r-status">Окупается</span>
+        </div>
+        <dl class="stats">
+          <div class="stat"><dt>Заявок</dt><dd id="r-leads">50</dd></div>
+          <div class="stat"><dt>Продаж</dt><dd id="r-sales">5</dd></div>
+          <div class="stat"><dt>Выручка</dt><dd id="r-rev">75 000 000 сум</dd></div>
+          <div class="stat"><dt>Прибыль после рекламы</dt><dd id="r-profit" class="good">10 000 000 сум</dd></div>
+          <div class="stat"><dt>ROMI, окупаемость</dt><dd id="r-romi">200 %</dd></div>
+          <div class="stat"><dt>Предельная цена заявки</dt><dd id="r-be">300 000 сум</dd></div>
+        </dl>
+        <div class="meter">
+          <div class="m-track" aria-hidden="true">
+            <div class="m-ok" id="m-ok" style="width:76.9%"></div>
+            <div class="m-be" id="m-be" style="left:76.9%"></div>
+            <div class="m-cpl" id="m-cpl" style="left:25.6%"></div>
+          </div>
+          <div class="m-legend">
+            <span><i class="lg lg-cpl" aria-hidden="true"></i>Ваша цена заявки: <b id="m-cpl-v">100 000 сум</b></span>
+            <span><i class="lg lg-be" aria-hidden="true"></i>Предел окупаемости: <b id="m-be-v">300 000 сум</b></span>
+          </div>
+        </div>
+        <p class="calc-sum" id="r-sum">При цене заявки 100 000 сум бюджет даст примерно 50 заявок и 5 продаж. Реклама окупается, пока заявка стоит меньше 300 000 сум.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band vivid" aria-labelledby="cta-title">
+  <svg class="cta-deco" viewBox="0 0 32 32" aria-hidden="true"><path d="M7 25 25 8"/><path d="M9 8 25 24"/><circle cx="16.8" cy="15.8" r="2.6"/></svg>
+  <div class="wrap cta-row reveal">
+    <div>
+      <h2 id="cta-title">Не знаете, с какого канала <span class="grad">начать?</span></h2>
+      <p>Разберём вашу нишу, конкурентов и текущую рекламу, посчитаем допустимую цену клиента. Бесплатно и без обязательств.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-action btn-breathe" href="#zayavka">Получить бесплатный разбор</a>
+      <a class="btn btn-ghost" href="tel:+998970088009"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3.5h3.3l1.7 4.4-2.1 1.3a11.5 11.5 0 0 0 6.7 6.7l1.3-2.1 4.4 1.7v3.3a1.8 1.8 0 0 1-1.9 1.8A16.9 16.9 0 0 1 3.4 5.4a1.8 1.8 0 0 1 1.8-1.9z"/></svg> +998 97 008 80 09</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="process" aria-labelledby="proc-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Процесс</p>
+      <h2 id="proc-title">Как мы <span class="grad">работаем</span></h2>
+    </div>
+    <ol class="steps">
+      <li class="step"><span class="step-n" aria-hidden="true">1</span><h3>Заявка</h3><p>Оставляете заявку на сайте или пишете в Telegram. Договариваемся о коротком созвоне.</p></li>
+      <li class="step"><span class="step-n" aria-hidden="true">2</span><h3>Бесплатный разбор</h3><p>Смотрим нишу, конкурентов, текущую рекламу и сайт. Считаем, сколько вы можете платить за клиента.</p></li>
+      <li class="step"><span class="step-n" aria-hidden="true">3</span><h3>Стратегия и план</h3><p>Каналы, бюджеты, прогноз заявок и KPI. Согласуем всё до старта.</p></li>
+      <li class="step"><span class="step-n" aria-hidden="true">4</span><h3>Запуск</h3><p>Настраиваем рекламные кабинеты на ваше имя, аналитику, креативы и объявления.</p></li>
+      <li class="step"><span class="step-n" aria-hidden="true">5</span><h3>Отчёты и рост</h3><p>Каждую неделю присылаем отчёт: заявки, цена заявки, продажи. Усиливаем то, что работает, и отключаем лишнее.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec tint" id="osnovatel" aria-labelledby="founder-title">
+  <div class="wrap founder">
+    <div class="founder-card reveal">
+      <div class="avatar" aria-hidden="true"><span>ДС</span><i></i></div>
+      <div>
+        <p class="founder-name">Диёрбек Саиджонов</p>
+        <p class="founder-role">Основатель Talab</p>
+      </div>
+      <a class="founder-phone" href="tel:+998970088009">+998 97 008 80 09</a>
+      <div class="founder-actions">
+        <a class="btn btn-ghost btn-sm" href="https://t.me/+998970088009" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M21.5 2.5 10.8 13.2"/><path d="M21.5 2.5 14.6 21.5l-3.8-8.3-8.3-3.8z"/></svg> Telegram</a>
+        <a class="btn btn-ghost btn-sm" href="https://www.instagram.com/saidjonov_diyorbek/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <div class="founder-text reveal">
+      <p class="eyebrow">Кто стоит за Talab</p>
+      <h2 id="founder-title">Вы работаете напрямую <span class="grad">с основателем</span></h2>
+      <p>Я работаю в B2B-продажах металлопроката и постоянно общаюсь с закупщиками, снабженцами и руководителями строительных компаний. Также есть опыт брокерской работы на бирже. Поэтому знаю, чем заявка, которая покупает, отличается от заявки, которая просто спрашивает цену.</p>
+      <p>В Talab я сам разбираю ваш бизнес, собираю стратегию и запускаю рекламу. Вы всегда знаете, кто отвечает за результат.</p>
+      <ul class="principles" data-stagger>
+        <li class="principle reveal">
+          <h3><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16"/><path d="M5.5 15.5 10 11l3 3 6-6"/><path d="M15 8h4v4"/></svg>Результат в деньгах</h3>
+          <p>Цель каждой кампании — заявка и продажа по цене, которая окупается.</p>
+        </li>
+        <li class="principle reveal" style="--tone:var(--t-green)">
+          <h3><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5 5 6.5v5c0 4.3 3 7.6 7 9 4-1.4 7-4.7 7-9v-5z"/><path d="m9 12 2 2 4-4"/></svg>Честно о нише</h3>
+          <p>Если канал не подходит вашему бизнесу, скажу об этом до того, как вы потратите бюджет.</p>
+        </li>
+        <li class="principle reveal" style="--tone:var(--t-coral)">
+          <h3><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.3 7.4L3.5 20.5l1.5-4.5A8.4 8.4 0 1 1 20.5 11.6z"/></svg>Прямая связь</h3>
+          <p>Пишете и звоните мне напрямую, без менеджеров-посредников.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="faq" aria-labelledby="faq-title">
+  <div class="wrap faq-grid">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Вопросы</p>
+      <h2 id="faq-title">Частые <span class="grad">вопросы</span></h2>
+      <p class="sec-sub">Не нашли ответ? Напишите в <a href="https://t.me/+998970088009" target="_blank" rel="noopener">Telegram</a> или позвоните: <a class="nowrap" href="tel:+998970088009">+998 97 008 80 09</a>.</p>
+    </div>
+    <div class="faq-list" data-stagger>
+      <details class="reveal">
+        <summary>Сколько стоят ваши услуги?<span class="pm" aria-hidden="true"></span></summary>
+        <div class="ans"><p>Зависит от ниши, количества каналов и объёма работы. Точную сумму назовём после бесплатного разбора. Оплата нашей работы и рекламный бюджет разделены: бюджет идёт напрямую в рекламные системы.</p></div>
+      </details>
+      <details class="reveal">
+        <summary>Какой нужен рекламный бюджет?<span class="pm" aria-hidden="true"></span></summary>
+        <div class="ans"><p>Считаем его от экономики вашего бизнеса: средний чек, маржа, доля заявок, которые становятся продажами. Прикинуть допустимую цену заявки можно в <a href="#raschet">калькуляторе</a>, тестовый бюджет обсудим на разборе.</p></div>
+      </details>
+      <details class="reveal">
+        <summary>Когда появятся первые заявки?<span class="pm" aria-hidden="true"></span></summary>
+        <div class="ans"><p>Meta Ads, Яндекс Директ, Telegram Ads и OLX дают заявки после запуска и модерации объявлений. SEO работает на длинной дистанции: заметный рост трафика обычно через 3–6 месяцев.</p></div>
+      </details>
+      <details class="reveal">
+        <summary>Вы работаете с моей нишей?<span class="pm" aria-hidden="true"></span></summary>
+        <div class="ans"><p>Подход одинаковый для любой ниши: разбираемся в продукте, клиенте и цифрах. Если какой-то канал вашему бизнесу не подходит, скажем об этом до старта.</p></div>
+      </details>
+      <details class="reveal">
+        <summary>Что нужно от нас для старта?<span class="pm" aria-hidden="true"></span></summary>
+        <div class="ans"><p>Информация о продукте и ценах, доступы к сайту и соцсетям, если они есть, и человек, который быстро отвечает на заявки. От скорости ответа напрямую зависят продажи.</p></div>
+      </details>
+      <details class="reveal">
+        <summary>Можно начать с одного канала?<span class="pm" aria-hidden="true"></span></summary>
+        <div class="ans"><p>Да. Часто стартуем с одного-двух каналов, где клиент уже ищет решение, и добавляем новые, когда цифры сходятся.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="sec contact tint" id="zayavka" aria-labelledby="form-title">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Заявка</p>
+      <h2 id="form-title">Бесплатный разбор <span class="grad">вашего маркетинга</span></h2>
+      <p class="sec-sub">Оставьте контакты. Разберём нишу, конкурентов и текущую рекламу, посчитаем допустимую цену клиента и предложим план. Разбор ни к чему не обязывает.</p>
+    </div>
+    <div class="contact-grid" data-stagger>
+      <div class="form-card reveal">
+        <form id="lead-form" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="f-name">Имя <span class="req" aria-hidden="true">*</span></label>
+              <input id="f-name" name="name" autocomplete="name" required>
+              <p class="err" id="f-name-err" hidden></p>
+            </div>
+            <div class="field">
+              <label for="f-phone">Телефон <span class="req" aria-hidden="true">*</span></label>
+              <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+998 90 123 45 67" required>
+              <p class="err" id="f-phone-err" hidden></p>
+            </div>
+            <div class="field">
+              <label for="f-company">Компания</label>
+              <input id="f-company" name="company" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="f-niche">Ниша</label>
+              <input id="f-niche" name="niche" list="niche-list" placeholder="Например, стройка">
+              <datalist id="niche-list"></datalist>
+            </div>
+            <div class="field">
+              <label for="f-service">Что нужно</label>
+              <select id="f-service" name="service">
+                <option>Пока не знаю</option>
+                <option>Стратегический маркетинг-план</option>
+                <option>Таргет в Meta Ads</option>
+                <option>Яндекс Директ</option>
+                <option>Telegram Ads</option>
+                <option>Реклама на OLX</option>
+                <option>SEO-продвижение</option>
+                <option>Несколько каналов сразу</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="f-budget">Рекламный бюджет в месяц</label>
+              <select id="f-budget" name="budget">
+                <option>Пока не знаю</option>
+                <option>до 5 млн сум</option>
+                <option>5–15 млн сум</option>
+                <option>15–50 млн сум</option>
+                <option>больше 50 млн сум</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label for="f-comment">Комментарий</label>
+              <textarea id="f-comment" name="comment" placeholder="Что продаёте, кто ваш клиент, какая реклама уже была"></textarea>
+            </div>
+          </div>
+          <div class="form-foot">
+            <button class="btn btn-action" type="submit">Продолжить <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+            <p class="hint">Дальше выберете, куда отправить заявку: в WhatsApp или Telegram. Поля со звёздочкой обязательны.</p>
+          </div>
+        </form>
+
+        <div class="result" id="lead-result" hidden>
+          <p class="label">Последний шаг</p>
+          <h3 id="result-title" tabindex="-1">Заявка готова</h3>
+          <p>WhatsApp откроется с готовым текстом, останется нажать «Отправить». Для Telegram мы скопируем текст, вставьте его в чат.</p>
+          <div class="send-row">
+            <a class="btn btn-action" id="send-wa" href="https://wa.me/998970088009" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.3 7.4L3.5 20.5l1.5-4.5A8.4 8.4 0 1 1 20.5 11.6z"/></svg> Отправить в WhatsApp</a>
+            <a class="btn btn-ghost" id="send-tg" href="https://t.me/+998970088009" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M21.5 2.5 10.8 13.2"/><path d="M21.5 2.5 14.6 21.5l-3.8-8.3-8.3-3.8z"/></svg> Открыть Telegram</a>
+          </div>
+          <label class="label" for="msg">Текст заявки</label>
+          <textarea class="msg-box" id="msg" readonly></textarea>
+          <div class="send-row">
+            <button type="button" class="btn btn-ghost btn-sm" id="copy-msg"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11.5" height="11.5" rx="2"/><path d="M5.5 15H5a1.5 1.5 0 0 1-1.5-1.5v-8A1.5 1.5 0 0 1 5 4h8a1.5 1.5 0 0 1 1.5 1.5V6"/></svg> Скопировать текст</button>
+            <button type="button" class="linkbtn" id="edit-lead">Изменить данные</button>
+          </div>
+        </div>
+      </div>
+
+      <aside class="contacts vivid reveal" aria-label="Контакты">
+        <p class="label">Или свяжитесь напрямую</p>
+        <a class="big-phone" href="tel:+998970088009">+998 97 008 80 09</a>
+        <div class="c-actions">
+          <a class="btn btn-ghost btn-sm" href="tel:+998970088009"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3.5h3.3l1.7 4.4-2.1 1.3a11.5 11.5 0 0 0 6.7 6.7l1.3-2.1 4.4 1.7v3.3a1.8 1.8 0 0 1-1.9 1.8A16.9 16.9 0 0 1 3.4 5.4a1.8 1.8 0 0 1 1.8-1.9z"/></svg> Позвонить</a>
+          <button type="button" class="btn btn-ghost btn-sm" data-copy="+998 97 008 80 09" data-copy-msg="Номер скопирован: +998 97 008 80 09"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11.5" height="11.5" rx="2"/><path d="M5.5 15H5a1.5 1.5 0 0 1-1.5-1.5v-8A1.5 1.5 0 0 1 5 4h8a1.5 1.5 0 0 1 1.5 1.5V6"/></svg> Скопировать номер</button>
+        </div>
+        <ul class="c-links">
+          <li><a href="https://t.me/+998970088009" target="_blank" rel="noopener">Telegram <span>написать →</span></a></li>
+          <li><a href="https://wa.me/998970088009" target="_blank" rel="noopener">WhatsApp <span>написать →</span></a></li>
+          <li><a href="https://www.instagram.com/saidjonov_diyorbek/" target="_blank" rel="noopener">Instagram <span>@saidjonov_diyorbek →</span></a></li>
+        </ul>
+        <p class="muted">Talab MCHJ, Ташкент, Узбекистан. Работаем онлайн с компаниями из любого региона.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer vivid">
+  <div class="wrap foot-row">
+    <a class="brand" href="#top" aria-label="Talab, наверх страницы">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect class="bm-bg" width="32" height="32" rx="8"/><path class="bm-line" d="M7 25 25 8"/><path class="bm-line" d="M9 8 25 24"/><circle class="bm-dot" cx="16.8" cy="15.8" r="3.4"/></svg>
+      <span class="brand-name">talab</span>
+    </a>
+    <p>© <span id="year">2026</span> Talab MCHJ. Маркетинговое агентство Talab, Ташкент.</p>
+    <nav class="foot-links" aria-label="Контакты">
+      <a class="phone-num" href="tel:+998970088009">+998 97 008 80 09</a>
+      <a href="https://t.me/+998970088009" target="_blank" rel="noopener">Telegram</a>
+      <a href="https://www.instagram.com/saidjonov_diyorbek/" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </div>
+</footer>
+
+<nav class="mbar" aria-label="Быстрая связь">
+  <a href="tel:+998970088009"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3.5h3.3l1.7 4.4-2.1 1.3a11.5 11.5 0 0 0 6.7 6.7l1.3-2.1 4.4 1.7v3.3a1.8 1.8 0 0 1-1.9 1.8A16.9 16.9 0 0 1 3.4 5.4a1.8 1.8 0 0 1 1.8-1.9z"/></svg>Позвонить</a>
+  <a href="https://t.me/+998970088009" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M21.5 2.5 10.8 13.2"/><path d="M21.5 2.5 14.6 21.5l-3.8-8.3-8.3-3.8z"/></svg>Telegram</a>
+  <a class="primary" href="https://wa.me/998970088009" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.3 7.4L3.5 20.5l1.5-4.5A8.4 8.4 0 1 1 20.5 11.6z"/></svg>WhatsApp</a>
+</nav>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  "use strict";
+  var PHONE = "+998 97 008 80 09";
+  var PHONE_WA = "998970088009";
+  var reduce = false;
+  try { reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) {}
+  function $(id) { return document.getElementById(id); }
+  function each(list, fn) { Array.prototype.forEach.call(list, fn); }
+
+  /* ---------- Toast and copy ---------- */
+  var toastEl = $("toast"), toastTimer = 0;
+  function toast(msg) {
+    toastEl.textContent = msg;
+    toastEl.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { toastEl.classList.remove("show"); }, 3200);
+  }
+  function selectAll(node) {
+    try {
+      if (node.select) { node.focus(); node.select(); return; }
+      var r = document.createRange(); r.selectNodeContents(node);
+      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+    } catch (e) {}
+  }
+  function copyText(text, okMsg, failMsg, selectNode) {
+    function fail() { if (selectNode) selectAll(selectNode); toast(failMsg); }
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () { toast(okMsg); }, fail);
+      } else { fail(); }
+    } catch (e) { fail(); }
+  }
+  document.addEventListener("click", function (e) {
+    var t = e.target && e.target.closest ? e.target.closest("[data-copy]") : null;
+    if (!t) return;
+    copyText(t.getAttribute("data-copy"), t.getAttribute("data-copy-msg") || "Скопировано", "Скопируйте номер вручную: " + PHONE);
+  });
+
+  /* ---------- Hero chart: demand shifts right ---------- */
+  var MS = -230 / 370, MD = 235 / 280, SHIFT = 110;
+  function eqAt(o) {
+    var x = (230 - 100 * MS + MD * (80 + o)) / (MD - MS);
+    return { x: x, y: 300 + MS * (x - 100) };
+  }
+  function r1(n) { return String(Math.round(n * 10) / 10); }
+  function attrs(node, map) { for (var k in map) node.setAttribute(k, map[k]); }
+  function clamp01(v) { return Math.max(0, Math.min(1, v)); }
+  var dLine = $("d-line"), gV = $("g-v"), gH = $("g-h"), eDot = $("e-dot"), eHalo = $("e-halo"), qLab = $("q-lab"), pLab = $("p-lab"),
+      ghost = $("ghost"), shiftG = $("shift-g"), shift = $("shift"), shiftHead = $("shift-head"), callout = $("callout"),
+      lgD = $("lg-d"), lgOld = $("lg-old"), btnNow = $("st-now"), btnTalab = $("st-talab");
+  var off = SHIFT, raf = 0, touched = false;
+
+  function drawChart(o) {
+    var e = eqAt(o), moved = o > 4;
+    attrs(dLine, { x1: r1(80 + o), x2: r1(360 + o) });
+    attrs(gV, { x1: r1(e.x), y1: r1(e.y), x2: r1(e.x) });
+    attrs(gH, { y1: r1(e.y), x2: r1(e.x), y2: r1(e.y) });
+    attrs(eDot, { cx: r1(e.x), cy: r1(e.y) });
+    attrs(eHalo, { cx: r1(e.x), cy: r1(e.y) });
+    attrs(qLab, { x: r1(e.x) });
+    attrs(pLab, { y: r1(e.y + 5) });
+    qLab.textContent = moved ? "Q₂" : "Q₁";
+    pLab.textContent = moved ? "P₂" : "P₁";
+    var g = clamp01((o - 4) / 30);
+    ghost.style.opacity = g;
+    var tip = 130 + o - 4;
+    attrs(shift, { x2: r1(Math.max(140, tip - 8)) });
+    attrs(shiftHead, { d: "M" + r1(tip) + " 112l-10-5v10z" });
+    shiftG.style.opacity = clamp01((o - 40) / 30);
+    callout.style.opacity = clamp01((o - 70) / 35);
+    lgD.textContent = moved ? "Спрос с Talab" : "Спрос сейчас";
+    lgOld.style.opacity = g;
+    lgOld.style.visibility = g > 0 ? "visible" : "hidden";
+  }
+  function setPressed(after) {
+    btnNow.setAttribute("aria-pressed", after ? "false" : "true");
+    btnTalab.setAttribute("aria-pressed", after ? "true" : "false");
+  }
+  function animateTo(target) {
+    cancelAnimationFrame(raf);
+    setPressed(target > 0);
+    if (reduce) { off = target; drawChart(off); return; }
+    var from = off, start = null, dur = 1200;
+    function step(ts) {
+      if (start === null) start = ts;
+      var k = Math.min(1, (ts - start) / dur);
+      off = from + (target - from) * (1 - Math.pow(1 - k, 3));
+      drawChart(off);
+      if (k < 1) raf = requestAnimationFrame(step);
+    }
+    raf = requestAnimationFrame(step);
+  }
+  btnNow.addEventListener("click", function () { touched = true; animateTo(0); });
+  btnTalab.addEventListener("click", function () { touched = true; animateTo(SHIFT); });
+  if (!reduce) {
+    off = 0; drawChart(0); setPressed(false);
+    setTimeout(function () { if (!touched) animateTo(SHIFT); }, 900);
+  }
+
+  /* ---------- Niches ---------- */
+  var CH = ["Meta Ads", "Яндекс Директ", "Telegram Ads", "OLX", "SEO"];
+  var FIT = { 1: "по ситуации", 2: "усиливает", 3: "основной" };
+  var NICHES = {
+    stroy: {
+      name: "Стройка и стройматериалы",
+      who: "Прорабы, строительные компании, снабженцы и частные застройщики.",
+      where: "Ищут в Яндексе и Google по запросам «купить оптом» и «цена за тонну», сравнивают предложения на OLX, спрашивают в строительных Telegram-чатах.",
+      start: "Поисковая реклама по коммерческим запросам и актуальный прайс в обмен на контакт.",
+      fit: [2, 3, 2, 3, 2]
+    },
+    proizvodstvo: {
+      name: "Производство",
+      who: "Дилеры, оптовые покупатели, закупщики торговых сетей и других производств.",
+      where: "Ищут «производитель» и «от производителя» в поиске, изучают сайт, условия и сертификаты.",
+      start: "Страница для дилеров с условиями сотрудничества и поисковая реклама по запросам «от производителя».",
+      fit: [1, 3, 2, 1, 3]
+    },
+    opt: {
+      name: "Опт и дистрибуция",
+      who: "Магазины, маркеты, кафе и рестораны, перекупщики.",
+      where: "Ищут поставщиков на OLX, в Telegram-каналах и в Instagram.",
+      start: "Бизнес-страница на OLX с ассортиментом и лид-форма «получить оптовый прайс» в Instagram.",
+      fit: [2, 2, 3, 3, 1]
+    },
+    uslugi: {
+      name: "Услуги для бизнеса",
+      who: "Владельцы и директора компаний, которым нужны бухгалтерия, юристы, IT, клининг или аутсорсинг.",
+      where: "Ищут в поиске, спрашивают в Telegram-сообществах предпринимателей, смотрят экспертов в Instagram.",
+      start: "Telegram Ads в каналах для предпринимателей и бесплатная консультация как первый шаг к сделке.",
+      fit: [2, 3, 3, 1, 2]
+    },
+    logistika: {
+      name: "Логистика и грузоперевозки",
+      who: "Импортёры, экспортёры, торговые и производственные компании.",
+      where: "Ищут по маршрутам: «доставка из Китая в Ташкент», «грузоперевозки Ташкент — Москва».",
+      start: "Отдельные объявления и страницы под каждый маршрут и расчёт стоимости доставки в обмен на контакт.",
+      fit: [1, 3, 2, 1, 3]
+    },
+    oborudovanie: {
+      name: "Оборудование и спецтехника",
+      who: "Производства, стройки, агрокомпании и сервисные службы.",
+      where: "Ищут по названию модели и характеристикам, сравнивают цены на OLX.",
+      start: "Карточки техники с ценами и характеристиками на OLX и поисковая реклама по названиям моделей.",
+      fit: [1, 3, 1, 3, 2]
+    },
+    riteyl: {
+      name: "Одежда и ритейл",
+      who: "Покупатели, которые выбирают в Instagram и Telegram, и магазины, которые закупают оптом.",
+      where: "Листают Instagram и Reels, смотрят каталоги в Telegram, сравнивают цены на OLX.",
+      start: "Reels с товаром в деле и кампании Advantage+ на сообщения в Direct.",
+      fit: [3, 1, 2, 2, 1]
+    },
+    krasota: {
+      name: "Красота и косметика",
+      who: "Клиенты салонов, покупатели косметики и салоны, которые закупают оптом.",
+      where: "Instagram и Reels, отзывы и блогеры, Telegram-каналы с подборками.",
+      start: "Видео с демонстрацией продукта и реальными отзывами, реклама на сообщения и запись.",
+      fit: [3, 1, 2, 1, 1]
+    },
+    servis: {
+      name: "Ремонт и сервис",
+      who: "Люди и компании, у которых что-то сломалось прямо сейчас.",
+      where: "Ищут «ремонт… в Ташкенте» или «рядом со мной» и звонят первым компаниям из поиска.",
+      start: "Поисковая реклама с привязкой к районам и быстрый ответ на звонки и сообщения.",
+      fit: [2, 3, 1, 2, 2]
+    },
+    medicina: {
+      name: "Медицина и клиники",
+      who: "Пациенты, которые выбирают врача или клинику, и компании, которым нужны медосмотры.",
+      where: "Ищут услугу, врача и цену в поиске, читают отзывы, смотрят врачей в Instagram.",
+      start: "Страница под каждую услугу и поиск по запросам «услуга + район + цена» с учётом правил рекламы медицинских услуг.",
+      fit: [2, 3, 1, 1, 3]
+    },
+    obrazovanie: {
+      name: "Образование и курсы",
+      who: "Студенты, родители и компании, которым нужно обучение сотрудников.",
+      where: "Instagram и Telegram, поиск по запросам «курсы в Ташкенте», рекомендации знакомых.",
+      start: "Лид-форма на пробный урок или тест уровня и ретаргетинг на тех, кто не записался.",
+      fit: [3, 2, 3, 1, 1]
+    },
+    nedvizhimost: {
+      name: "Недвижимость",
+      who: "Покупатели и арендаторы жилой и коммерческой недвижимости, инвесторы.",
+      where: "OLX, Instagram застройщиков и агентств, Telegram-каналы с объектами.",
+      start: "Лид-формы с вопросами о бюджете, районе и сроках и объявления по каждому объекту на OLX.",
+      fit: [3, 2, 2, 3, 1]
+    },
+    other: {
+      name: "Ваша ниша",
+      who: "Расскажите, что вы продаёте и кому. Разберём нишу на бесплатной консультации.",
+      where: "Посмотрим, как ваш клиент ищет решение и где уже работают конкуренты.",
+      start: "Стратегический план: каналы, бюджет и допустимая цена заявки.",
+      fit: null
+    }
+  };
+  var chips = document.querySelectorAll("#niche-chips .chip");
+  var curNiche = "stroy";
+  function renderNiche(id) {
+    var n = NICHES[id];
+    if (!n) return;
+    curNiche = id;
+    each(chips, function (c) { c.setAttribute("aria-pressed", c.getAttribute("data-id") === id ? "true" : "false"); });
+    $("np-name").textContent = n.name;
+    $("np-who").textContent = n.who;
+    $("np-where").textContent = n.where;
+    $("np-start").textContent = n.start;
+    var panel = $("niche-panel");
+    panel.classList.remove("swap");
+    void panel.offsetWidth;
+    panel.classList.add("swap");
+    var list = $("np-fit");
+    if (n.fit) {
+      list.innerHTML = n.fit.map(function (lv, i) {
+        var bars = "";
+        for (var j = 1; j <= 3; j++) bars += j <= lv ? '<i class="on"></i>' : "<i></i>";
+        return '<li class="fit-row" data-level="' + lv + '"><span class="fit-name">' + CH[i] +
+          '</span><span class="fit-meter" aria-hidden="true">' + bars + '</span><span class="fit-note">' + FIT[lv] + "</span></li>";
+      }).join("");
+      list.hidden = false;
+      $("np-legend").textContent = "Стратегический план — первый шаг в любой нише. Точный набор каналов подтверждаем на разборе.";
+    } else {
+      list.hidden = true;
+      $("np-legend").textContent = "Набор каналов подберём на бесплатном разборе: посмотрим, как ваш клиент ищет решение и где уже работают конкуренты.";
+    }
+  }
+  $("niche-chips").addEventListener("click", function (e) {
+    var c = e.target && e.target.closest ? e.target.closest(".chip") : null;
+    if (c) renderNiche(c.getAttribute("data-id"));
+  });
+  each(document.querySelectorAll("[data-niche]"), function (a) {
+    a.addEventListener("click", function () { renderNiche(a.getAttribute("data-niche")); });
+  });
+  $("np-cta").addEventListener("click", function () {
+    if (curNiche !== "other") $("f-niche").value = NICHES[curNiche].name;
+  });
+  var dl = $("niche-list");
+  Object.keys(NICHES).forEach(function (k) {
+    if (k === "other") return;
+    var o = document.createElement("option");
+    o.value = NICHES[k].name;
+    dl.appendChild(o);
+  });
+
+  /* ---------- Calculator ---------- */
+  var CUR = {
+    uzs: { sfx: "сум", budget: 5000000, cpl: 100000, check: 15000000 },
+    usd: { sfx: "$", budget: 400, cpl: 8, check: 1200 }
+  };
+  var cur = "uzs";
+  var nf0 = new Intl.NumberFormat("ru-RU", { maximumFractionDigits: 0 });
+  var nf1 = new Intl.NumberFormat("ru-RU", { maximumFractionDigits: 1 });
+  var nf2 = new Intl.NumberFormat("ru-RU", { maximumFractionDigits: 2 });
+  function num(v) {
+    var s = String(v).replace(/\s/g, "").replace(",", ".").replace(/[^0-9.]/g, "");
+    var n = parseFloat(s);
+    return isFinite(n) ? n : 0;
+  }
+  function money(n) {
+    var a = Math.abs(n);
+    var body = (cur === "usd" && a < 100) ? nf2.format(Math.round(a * 100) / 100) : nf0.format(Math.round(a));
+    return (n < 0 && Math.round(a) > 0 ? "−" : "") + body + " " + CUR[cur].sfx;
+  }
+  function plural(n, forms) {
+    if (Math.floor(n) !== n) return forms[3];
+    var a = Math.abs(n) % 100, b = a % 10;
+    if (a > 10 && a < 20) return forms[2];
+    if (b === 1) return forms[0];
+    if (b >= 2 && b <= 4) return forms[1];
+    return forms[2];
+  }
+  var cIn = { budget: $("c-budget"), cpl: $("c-cpl"), conv: $("c-conv"), margin: $("c-margin"), check: $("c-check") };
+  var shown = null, tweenRaf = 0;
+  function paintStats(v, beOk) {
+    $("r-leads").textContent = nf0.format(Math.round(v.leads));
+    $("r-sales").textContent = nf1.format(Math.round(v.sales * 10) / 10);
+    $("r-rev").textContent = money(v.rev);
+    $("r-profit").textContent = money(v.profit);
+    $("r-romi").textContent = (Math.round(v.romi) < 0 ? "−" : "") + nf0.format(Math.abs(Math.round(v.romi))) + " %";
+    $("r-be").textContent = beOk ? money(v.be) : "—";
+  }
+  function tweenStats(target, beOk) {
+    cancelAnimationFrame(tweenRaf);
+    if (reduce || !shown) { shown = target; paintStats(target, beOk); return; }
+    var from = shown, start = null, dur = 520;
+    function step(ts) {
+      if (start === null) start = ts;
+      var k = Math.min(1, (ts - start) / dur), e = 1 - Math.pow(1 - k, 3), cur = {};
+      for (var key in target) cur[key] = from[key] + (target[key] - from[key]) * e;
+      if (k < 1) { shown = cur; paintStats(cur, beOk); tweenRaf = requestAnimationFrame(step); }
+      else { shown = target; paintStats(target, beOk); }
+    }
+    tweenRaf = requestAnimationFrame(step);
+  }
+  function calc() {
+    var b = num(cIn.budget.value), c = num(cIn.cpl.value), chk = num(cIn.check.value);
+    var cv = Math.min(100, num(cIn.conv.value)) / 100, m = Math.min(100, num(cIn.margin.value)) / 100;
+    var st = $("r-status");
+    if (b <= 0 || c <= 0) {
+      cancelAnimationFrame(tweenRaf); shown = null;
+      ["r-leads", "r-sales", "r-rev", "r-profit", "r-romi", "r-be"].forEach(function (id) { $(id).textContent = "—"; $(id).className = ""; });
+      st.className = "pill neutral";
+      st.textContent = "Нужны бюджет и цена заявки";
+      $("m-cpl-v").textContent = "—";
+      $("m-be-v").textContent = "—";
+      $("r-sum").textContent = "Укажите рекламный бюджет и цену заявки больше нуля.";
+      return;
+    }
+    var leads = b / c, sales = leads * cv, rev = sales * chk, be = chk * m * cv;
+    var profit = rev * m - b, romi = profit / b * 100;
+    var leadsN = Math.floor(leads), salesN = Math.round(sales * 10) / 10;
+    $("r-profit").className = profit >= 0 ? "good" : "bad";
+    tweenStats({ leads: leadsN, sales: salesN, rev: rev, profit: profit, romi: romi, be: be > 0 ? be : 0 }, be > 0);
+    if (be > 0 && c < be * 0.97) { st.className = "pill good"; st.textContent = "Окупается"; }
+    else if (be > 0 && c <= be * 1.03) { st.className = "pill neutral"; st.textContent = "Около нуля"; }
+    else { st.className = "pill bad"; st.textContent = "Не окупается"; }
+    var max = Math.max(c, be) * 1.3 || 1;
+    var bePct = (be / max * 100).toFixed(1), cPct = (Math.min(1, c / max) * 100).toFixed(1);
+    $("m-ok").style.width = bePct + "%";
+    $("m-be").style.left = bePct + "%";
+    $("m-cpl").style.left = cPct + "%";
+    $("m-cpl-v").textContent = money(c);
+    $("m-be-v").textContent = be > 0 ? money(be) : "—";
+    var txt = "При цене заявки " + money(c) + " бюджет даст примерно " + nf0.format(leadsN) + " " +
+      plural(leadsN, ["заявку", "заявки", "заявок", "заявки"]) + " и " + nf1.format(salesN) + " " +
+      plural(salesN, ["продажу", "продажи", "продаж", "продажи"]) + ". ";
+    txt += be > 0
+      ? "Реклама окупается, пока заявка стоит меньше " + money(be) + "."
+      : "Укажите конверсию, маржу и средний чек, чтобы узнать предельную цену заявки.";
+    $("r-sum").textContent = txt;
+  }
+  Object.keys(cIn).forEach(function (k) {
+    cIn[k].addEventListener("input", calc);
+    if (k === "budget" || k === "cpl" || k === "check") {
+      cIn[k].addEventListener("blur", function () {
+        var v = num(cIn[k].value);
+        cIn[k].value = v ? nf2.format(v) : "";
+      });
+    }
+  });
+  $("calc-form").addEventListener("submit", function (e) { e.preventDefault(); });
+  var curBtns = document.querySelectorAll("[data-cur]");
+  each(curBtns, function (btn) {
+    btn.addEventListener("click", function () {
+      var k = btn.getAttribute("data-cur");
+      if (k === cur) return;
+      cur = k;
+      each(curBtns, function (b) { b.setAttribute("aria-pressed", b === btn ? "true" : "false"); });
+      each(document.querySelectorAll("[data-affix]"), function (a) { a.textContent = CUR[cur].sfx; });
+      cIn.budget.value = nf0.format(CUR[cur].budget);
+      cIn.cpl.value = nf0.format(CUR[cur].cpl);
+      cIn.check.value = nf0.format(CUR[cur].check);
+      shown = null;
+      calc();
+    });
+  });
+  calc();
+
+  /* ---------- Lead form: prepare the message for WhatsApp or Telegram ---------- */
+  var form = $("lead-form"), result = $("lead-result"), msgBox = $("msg");
+  function setErr(id, text) {
+    var input = $(id), er = $(id + "-err");
+    if (text) {
+      input.setAttribute("aria-invalid", "true");
+      input.setAttribute("aria-describedby", id + "-err");
+      er.textContent = text;
+      er.hidden = false;
+    } else {
+      input.removeAttribute("aria-invalid");
+      input.removeAttribute("aria-describedby");
+      er.textContent = "";
+      er.hidden = true;
+    }
+  }
+  ["f-name", "f-phone"].forEach(function (id) {
+    $(id).addEventListener("input", function () { if ($(id).getAttribute("aria-invalid")) setErr(id, ""); });
+  });
+  function scrollToEl(el) {
+    var y = el.getBoundingClientRect().top + window.pageYOffset - 90;
+    try { window.scrollTo({ top: y, behavior: reduce ? "auto" : "smooth" }); } catch (e) { window.scrollTo(0, y); }
+  }
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var name = $("f-name").value.trim(), phone = $("f-phone").value.trim(), digits = phone.replace(/\D/g, "");
+    var first = null;
+    if (!name) { setErr("f-name", "Напишите, как к вам обращаться."); first = "f-name"; } else { setErr("f-name", ""); }
+    if (digits.length < 9) {
+      setErr("f-phone", digits.length ? "Номер слишком короткий. Пример: +998 90 123 45 67" : "Укажите телефон, чтобы мы могли связаться с вами.");
+      first = first || "f-phone";
+    } else { setErr("f-phone", ""); }
+    if (first) { $(first).focus(); return; }
+    var lines = ["Здравствуйте! Заявка на бесплатный разбор с сайта talab.uz.", "Имя: " + name, "Телефон: " + phone];
+    [["Компания", "f-company"], ["Ниша", "f-niche"], ["Что нужно", "f-service"], ["Бюджет", "f-budget"], ["Комментарий", "f-comment"]].forEach(function (p) {
+      var v = $(p[1]).value.trim();
+      if (v) lines.push(p[0] + ": " + v);
+    });
+    var msg = lines.join("\n");
+    msgBox.value = msg;
+    $("send-wa").href = "https://wa.me/" + PHONE_WA + "?text=" + encodeURIComponent(msg);
+    form.hidden = true;
+    result.hidden = false;
+    try { $("result-title").focus({ preventScroll: true }); } catch (err) { $("result-title").focus(); }
+    scrollToEl(result.parentNode);
+  });
+  $("send-tg").addEventListener("click", function () {
+    copyText(msgBox.value, "Текст заявки скопирован. Вставьте его в чат Telegram.", "Скопируйте выделенный текст заявки и вставьте его в чат Telegram.", msgBox);
+  });
+  $("copy-msg").addEventListener("click", function () {
+    copyText(msgBox.value, "Текст заявки скопирован.", "Скопируйте выделенный текст вручную.", msgBox);
+  });
+  $("edit-lead").addEventListener("click", function () {
+    result.hidden = true;
+    form.hidden = false;
+    $("f-name").focus();
+  });
+
+  $("year").textContent = String(new Date().getFullYear());
+
+  /* ---------- Phone links: inside a framed preview, open the dialer in a new context ---------- */
+  var framed = false;
+  try { framed = window.self !== window.top; } catch (e) { framed = true; }
+  if (framed) {
+    each(document.querySelectorAll('a[href^="tel:"]'), function (a) { a.setAttribute("target", "_blank"); a.setAttribute("rel", "noopener"); });
+  }
+
+  /* ---------- Header shadow and reading progress ---------- */
+  var hdr = document.querySelector(".site-header"), bar = $("progress-bar");
+  function onScroll() {
+    var y = window.pageYOffset || 0;
+    hdr.classList.toggle("scrolled", y > 8);
+    var max = document.documentElement.scrollHeight - (window.innerHeight || 0);
+    if (bar) bar.style.transform = "scaleX(" + (max > 0 ? Math.min(1, y / max) : 0).toFixed(4) + ")";
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", onScroll);
+  onScroll();
+
+  /* ---------- Scroll reveal: only blocks below the first screen start faded ---------- */
+  each(document.querySelectorAll("[data-stagger]"), function (wrap) {
+    var i = 0;
+    each(wrap.children, function (el) {
+      if (el.classList.contains("reveal")) { el.style.setProperty("--rd", Math.min(i, 5) * 90 + "ms"); i++; }
+    });
+  });
+  var steps = document.querySelector(".steps");
+  if (!reduce && "IntersectionObserver" in window) {
+    var vh = window.innerHeight || 800;
+    var below = function (el) { return el.getBoundingClientRect().top > vh * 0.92; };
+    var pending = [].filter.call(document.querySelectorAll(".reveal"), below);
+    pending.forEach(function (el) { el.classList.add("pre"); });
+    if (steps && below(steps)) { steps.classList.add("anim"); pending.push(steps); }
+    var show = function (el) { el.classList.add("in"); };
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { show(en.target); io.unobserve(en.target); } });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.06 });
+    pending.forEach(function (el) { io.observe(el); });
+    var sweep = function () {
+      var h = window.innerHeight || 800;
+      pending.forEach(function (el) { if (!el.classList.contains("in") && el.getBoundingClientRect().top < h * 0.94) show(el); });
+    };
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () { ticking = false; sweep(); });
+    }, { passive: true });
+    window.addEventListener("beforeprint", function () { pending.forEach(show); });
+    if (document.documentElement.scrollHeight <= vh + 4) setTimeout(function () { pending.forEach(show); }, 300);
+  }
+
+  /* ---------- Chart card tilts toward the cursor; cards glow under it ---------- */
+  var fine = false;
+  try { fine = window.matchMedia("(hover: hover) and (pointer: fine)").matches; } catch (e) {}
+  var heroEl = document.querySelector(".hero"), card = document.querySelector(".chart-card");
+  if (fine && !reduce && heroEl && card) {
+    heroEl.addEventListener("pointermove", function (e) {
+      var r = card.getBoundingClientRect();
+      var x = Math.max(-0.2, Math.min(1.2, (e.clientX - r.left) / r.width));
+      var y = Math.max(-0.2, Math.min(1.2, (e.clientY - r.top) / r.height));
+      card.style.setProperty("--ry", ((x - 0.5) * 9).toFixed(2) + "deg");
+      card.style.setProperty("--rx", ((0.5 - y) * 7).toFixed(2) + "deg");
+      card.style.setProperty("--gx", (x * 100).toFixed(1) + "%");
+      card.style.setProperty("--gy", (y * 100).toFixed(1) + "%");
+    });
+    heroEl.addEventListener("pointerleave", function () {
+      card.style.setProperty("--rx", "0deg");
+      card.style.setProperty("--ry", "0deg");
+    });
+  }
+  if (fine && !reduce) {
+    each(document.querySelectorAll(".svc-card, .principle"), function (c) {
+      c.addEventListener("pointermove", function (e) {
+        var r = c.getBoundingClientRect();
+        c.style.setProperty("--mx", (e.clientX - r.left).toFixed(0) + "px");
+        c.style.setProperty("--my", (e.clientY - r.top).toFixed(0) + "px");
+      });
+    });
+  }
+})();
+</script>
+
+</body></html>
